@@ -6,90 +6,90 @@
         "questions": [
             {
                 "id": 1,
-                "text": "8 ÷ 2(2 + 2)",
+                "text": "عدد 7633 با تقریب کمتر از  .......... برابر 7000 است",
                 "options": [
                     {
                         "id": 1,
                         "label": "A",
-                        "text": "16",
-                        "isCorrect": true
+                        "text": "10",
+                        "isCorrect": false
                     },
                     {
                         "id": 2,
                         "label": "B",
-                        "text": "1",
+                        "text": "100",
                         "isCorrect": false
                     },
                     {
                         "id": 3,
                         "label": "C",
-                        "text": "8",
-                        "isCorrect": false
+                        "text": "1000",
+                        "isCorrect": true
                     },
                     {
                         "id": 4,
                         "label": "D",
-                        "text": "24",
+                        "text": "100000",
                         "isCorrect": false
                     }
                 ]
             },
             {
                 "id": 2,
-                "text": "sqrt(64) * 9",
+                "text": "حاصل عبارت 27-27*2-1",
                 "options": [
                     {
                         "id": 1,
                         "label": "A",
-                        "text": "4",
+                        "text": "-60",
                         "isCorrect": false
                     },
                     {
                         "id": 2,
                         "label": "B",
-                        "text": "81",
+                        "text": "-70",
                         "isCorrect": false
                     },
                     {
                         "id": 3,
                         "label": "C",
-                        "text": "72",
+                        "text": "-80",
                         "isCorrect": true
                     },
                     {
                         "id": 4,
                         "label": "D",
-                        "text": "144",
+                        "text": "70",
                         "isCorrect": false
                     }
                 ]
             },
             {
                 "id": 3,
-                "text": "3 + 3 x 3 ÷ 3 - 3",
+                "text": "برای اندازه گیری مساحت استان ها از چه واحد اندازه گیری استفاده می شود ؟",
                 "options": [
                     {
                         "id": 1,
                         "label": "A",
-                        "text": "3",
-                        "isCorrect": true
+                        "text": "کیلومتر",
+                        "isCorrect": false
                     },
                     {
                         "id": 2,
                         "label": "B",
-                        "text": "1",
-                        "isCorrect": false
+                        "text": "کیلومتر مربع",
+                        "isCorrect": true
                     },
                     {
                         "id": 3,
                         "label": "C",
-                        "text": "9",
+                        "text": "متر",
                         "isCorrect": false
                     },
                     {
                         "id": 4,
                         "label": "D",
-                        "text": "16",
+                        "text": "متر مربع",
                         "isCorrect": false
                     }
                 ]
@@ -103,91 +103,91 @@
         "questions": [
             {
                 "id": 1,
-                "text": "The Kreb Cycles occurs in the",
+                "text": "زیست شناسان برای استفاده موثر تر از سلولز در گیاهان از همه مواد زیر استفاده می کنند به جز :",
                 "options": [
                     {
                         "id": 1,
                         "label": "A",
-                        "text": "Mitochondria",
-                        "isCorrect": true
+                        "text": "مهندسی کردن ژن های گیاهان برای رشد بیشتر با آب کمتر",
+                        "isCorrect": false
                     },
                     {
                         "id": 2,
                         "label": "B",
-                        "text": "Nucleus",
-                        "isCorrect": false
+                        "text": "فراهم کردن آنزیم های مهندسی شده برای تولید بهتر سلولز",
+                        "isCorrect": true
                     },
                     {
                         "id": 3,
                         "label": "C",
-                        "text": "Rough ER",
+                        "text": "مهندسی کردن ژن های گیاهان برای رشد بیشتر با انرژی کمتر",
                         "isCorrect": false
                     },
                     {
                         "id": 4,
                         "label": "D",
-                        "text": "Cystol",
+                        "text": "انتخاب مصنوعی گیاهان که مقدار بیشتر سلولز تولید می کنند",
                         "isCorrect": false
                     }
                 ]
             },
             {
                 "id": 2,
-                "text": "How many oxygen molecules can hemoglobin hold",
+                "text": "همه موارد زیر در مولکول دنا صدق می کند ، به جز ............",
                 "options": [
                     {
                         "id": 1,
                         "label": "A",
-                        "text": "1",
+                        "text": "با استفاده از آن هویت انسان ها به آسانی مشخص می شود .",
                         "isCorrect": false
                     },
                     {
                         "id": 2,
                         "label": "B",
-                        "text": "2",
+                        "text": "با بررسی ژن های آن می توان بیماری احتمالی فرد در آینده را مشخص کرد.",
                         "isCorrect": false
                     },
                     {
                         "id": 3,
                         "label": "C",
-                        "text": "3",
+                        "text": "الگو های رشد و نمو در همه موجودات توسط آن تنظیم شده است .",
                         "isCorrect": false
                     },
                     {
                         "id": 4,
                         "label": "D",
-                        "text": "4",
+                        "text": "در همه سطوح گسترده حیات نقش تنظیم کننده دارد .",
                         "isCorrect": true
                     }
                 ]
             },
             {
                 "id": 3,
-                "text": "The cones see ___ while the rods see ___",
+                "text": "در هر جانور دارای چیندان قطعا",
                 "options": [
                     {
                         "id": 1,
                         "label": "A",
-                        "text": "black and white; color",
+                        "text": "گردش خون بسته دیده می شود",
                         "isCorrect": false
                     },
                     {
                         "id": 2,
                         "label": "B",
-                        "text": "color; black and white",
-                        "isCorrect": true
+                        "text": "قلب بیش از دو حفره وجود دارد",
+                        "isCorrect": false
                     },
                     {
                         "id": 3,
                         "label": "C",
-                        "text": "3D objects; 2D shapes",
+                        "text": "در سامانه دفعی مثانه دیده میشود",
                         "isCorrect": false
                     },
                     {
                         "id": 4,
                         "label": "D",
-                        "text": "2D shapes; 3D objects",
-                        "isCorrect": false
+                        "text": "لوله گوارش شکل گرفته است .",
+                        "isCorrect": true
                     }
                 ]
             }
@@ -200,90 +200,90 @@
         "questions": [
             {
                 "id": 1,
-                "text": "What is the composition of table salt",
+                "text": "کدام یک از گزینه های زیر نادرست است ؟",
                 "options": [
                     {
                         "id": 1,
                         "label": "A",
-                        "text": "NaCl",
-                        "isCorrect": true
+                        "text": "دقت ترازوی زرگری یکصدم گرم است",
+                        "isCorrect": false
                     },
                     {
                         "id": 2,
                         "label": "B",
-                        "text": "K2",
-                        "isCorrect": false
+                        "text": "عناصر یک ستون در جدول تناوبی خواص شمیایی یکسان دارند",
+                        "isCorrect": true
                     },
                     {
                         "id": 3,
                         "label": "C",
-                        "text": "NaCl2C4H7",
+                        "text": "نیلز بور با مدل اتمی خود توانست طیف نشری-خطی عناصر را توضیح دهد",
                         "isCorrect": false
                     },
                     {
                         "id": 4,
                         "label": "D",
-                        "text": "CH4",
+                        "text": "کلر دارای 2 ایزوتوپ با عدد های جرمی 35 و 37 است",
                         "isCorrect": false
                     }
                 ]
             },
             {
                 "id": 2,
-                "text": "What is Potassium's chemical symbol",
+                "text": "کدام یک از گزینه های زیر جزو فراورده های سوختن ذغال سنگ نیست ؟",
                 "options": [
                     {
                         "id": 1,
                         "label": "A",
-                        "text": "P",
+                        "text": "CO2",
                         "isCorrect": false
                     },
                     {
                         "id": 2,
                         "label": "B",
-                        "text": "Pt",
+                        "text": "CO",
                         "isCorrect": false
                     },
                     {
                         "id": 3,
                         "label": "C",
-                        "text": "Pts",
+                        "text": "H2O",
                         "isCorrect": false
                     },
                     {
                         "id": 4,
                         "label": "D",
-                        "text": "K",
+                        "text": "SO3",
                         "isCorrect": true
                     }
                 ]
             },
             {
                 "id": 3,
-                "text": "Which is not organinc",
+                "text": "تعداد خطوط مرئی در طیف نشری-خطی لیتیم با عنصر ...........برابر است و عنصر .............بیشترین خط را در گستره مرئی نسبت به سایر گزینه ها دارد .",
                 "options": [
                     {
                         "id": 1,
                         "label": "A",
-                        "text": "CH4",
+                        "text": "هیدروژن - هلیوم",
                         "isCorrect": false
                     },
                     {
                         "id": 2,
                         "label": "B",
-                        "text": "NaCl",
+                        "text": "هیدروژن - نئون",
                         "isCorrect": true
                     },
                     {
                         "id": 3,
                         "label": "C",
-                        "text": "C2H6",
+                        "text": "هلیم - نئون",
                         "isCorrect": false
                     },
                     {
                         "id": 4,
                         "label": "D",
-                        "text": "C3H8",
+                        "text": "هلیوم - نئون",
                         "isCorrect": false
                     }
                 ]

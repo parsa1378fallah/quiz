@@ -1,1 +1,7 @@
 @import './base.css';
+@font-face {
+    font-family: vazir;
+    src: url(./fonts//vazir/Vazir-Medium.ttf);
+}
+*
+{font-family: vazir;}
