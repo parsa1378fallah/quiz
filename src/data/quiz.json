@@ -10,25 +10,25 @@
                 "options": [
                     {
                         "id": 1,
-                        "label": "A",
+                        "label": "الف",
                         "text": "10",
                         "isCorrect": false
                     },
                     {
                         "id": 2,
-                        "label": "B",
+                        "label": "ب",
                         "text": "100",
                         "isCorrect": false
                     },
                     {
                         "id": 3,
-                        "label": "C",
+                        "label": "ج",
                         "text": "1000",
                         "isCorrect": true
                     },
                     {
                         "id": 4,
-                        "label": "D",
+                        "label": "د",
                         "text": "100000",
                         "isCorrect": false
                     }
@@ -40,25 +40,25 @@
                 "options": [
                     {
                         "id": 1,
-                        "label": "A",
+                        "label": "الف",
                         "text": "-60",
                         "isCorrect": false
                     },
                     {
                         "id": 2,
-                        "label": "B",
+                        "label": "ب",
                         "text": "-70",
                         "isCorrect": false
                     },
                     {
                         "id": 3,
-                        "label": "C",
+                        "label": "ج",
                         "text": "-80",
                         "isCorrect": true
                     },
                     {
                         "id": 4,
-                        "label": "D",
+                        "label": "د",
                         "text": "70",
                         "isCorrect": false
                     }
@@ -70,25 +70,25 @@
                 "options": [
                     {
                         "id": 1,
-                        "label": "A",
+                        "label": "الف",
                         "text": "کیلومتر",
                         "isCorrect": false
                     },
                     {
                         "id": 2,
-                        "label": "B",
+                        "label": "ب",
                         "text": "کیلومتر مربع",
                         "isCorrect": true
                     },
                     {
                         "id": 3,
-                        "label": "C",
+                        "label": "ج",
                         "text": "متر",
                         "isCorrect": false
                     },
                     {
                         "id": 4,
-                        "label": "D",
+                        "label": "د",
                         "text": "متر مربع",
                         "isCorrect": false
                     }
@@ -107,25 +107,25 @@
                 "options": [
                     {
                         "id": 1,
-                        "label": "A",
+                        "label": "الف",
                         "text": "مهندسی کردن ژن های گیاهان برای رشد بیشتر با آب کمتر",
                         "isCorrect": false
                     },
                     {
                         "id": 2,
-                        "label": "B",
+                        "label": "ب",
                         "text": "فراهم کردن آنزیم های مهندسی شده برای تولید بهتر سلولز",
                         "isCorrect": true
                     },
                     {
                         "id": 3,
-                        "label": "C",
+                        "label": "ج",
                         "text": "مهندسی کردن ژن های گیاهان برای رشد بیشتر با انرژی کمتر",
                         "isCorrect": false
                     },
                     {
                         "id": 4,
-                        "label": "D",
+                        "label": "د",
                         "text": "انتخاب مصنوعی گیاهان که مقدار بیشتر سلولز تولید می کنند",
                         "isCorrect": false
                     }
@@ -137,25 +137,25 @@
                 "options": [
                     {
                         "id": 1,
-                        "label": "A",
+                        "label": "الف",
                         "text": "با استفاده از آن هویت انسان ها به آسانی مشخص می شود .",
                         "isCorrect": false
                     },
                     {
                         "id": 2,
-                        "label": "B",
+                        "label": "ب",
                         "text": "با بررسی ژن های آن می توان بیماری احتمالی فرد در آینده را مشخص کرد.",
                         "isCorrect": false
                     },
                     {
                         "id": 3,
-                        "label": "C",
+                        "label": "ج",
                         "text": "الگو های رشد و نمو در همه موجودات توسط آن تنظیم شده است .",
                         "isCorrect": false
                     },
                     {
                         "id": 4,
-                        "label": "D",
+                        "label": "د",
                         "text": "در همه سطوح گسترده حیات نقش تنظیم کننده دارد .",
                         "isCorrect": true
                     }
@@ -167,25 +167,25 @@
                 "options": [
                     {
                         "id": 1,
-                        "label": "A",
+                        "label": "الف",
                         "text": "گردش خون بسته دیده می شود",
                         "isCorrect": false
                     },
                     {
                         "id": 2,
-                        "label": "B",
+                        "label": "ب",
                         "text": "قلب بیش از دو حفره وجود دارد",
                         "isCorrect": false
                     },
                     {
                         "id": 3,
-                        "label": "C",
+                        "label": "ج",
                         "text": "در سامانه دفعی مثانه دیده میشود",
                         "isCorrect": false
                     },
                     {
                         "id": 4,
-                        "label": "D",
+                        "label": "د",
                         "text": "لوله گوارش شکل گرفته است .",
                         "isCorrect": true
                     }
@@ -195,7 +195,7 @@
     },
     {
         "id": 3,
-        "img": "http://jobs.newscientist.com/getasset/c40a5488-11be-43b0-843f-a2e6ef9f0612/",
+        "img": "../assets/images/chemistry.png",
         "name": "شیمی",
         "questions": [
             {
@@ -204,25 +204,25 @@
                 "options": [
                     {
                         "id": 1,
-                        "label": "A",
+                        "label": "الف",
                         "text": "دقت ترازوی زرگری یکصدم گرم است",
                         "isCorrect": false
                     },
                     {
                         "id": 2,
-                        "label": "B",
+                        "label": "ب",
                         "text": "عناصر یک ستون در جدول تناوبی خواص شمیایی یکسان دارند",
                         "isCorrect": true
                     },
                     {
                         "id": 3,
-                        "label": "C",
+                        "label": "ج",
                         "text": "نیلز بور با مدل اتمی خود توانست طیف نشری-خطی عناصر را توضیح دهد",
                         "isCorrect": false
                     },
                     {
                         "id": 4,
-                        "label": "D",
+                        "label": "د",
                         "text": "کلر دارای 2 ایزوتوپ با عدد های جرمی 35 و 37 است",
                         "isCorrect": false
                     }
@@ -234,25 +234,25 @@
                 "options": [
                     {
                         "id": 1,
-                        "label": "A",
+                        "label": "الف",
                         "text": "CO2",
                         "isCorrect": false
                     },
                     {
                         "id": 2,
-                        "label": "B",
+                        "label": "ب",
                         "text": "CO",
                         "isCorrect": false
                     },
                     {
                         "id": 3,
-                        "label": "C",
+                        "label": "ج",
                         "text": "H2O",
                         "isCorrect": false
                     },
                     {
                         "id": 4,
-                        "label": "D",
+                        "label": "د",
                         "text": "SO3",
                         "isCorrect": true
                     }
@@ -264,25 +264,25 @@
                 "options": [
                     {
                         "id": 1,
-                        "label": "A",
+                        "label": "الف",
                         "text": "هیدروژن - هلیوم",
                         "isCorrect": false
                     },
                     {
                         "id": 2,
-                        "label": "B",
+                        "label": "ب",
                         "text": "هیدروژن - نئون",
                         "isCorrect": true
                     },
                     {
                         "id": 3,
-                        "label": "C",
+                        "label": "ج",
                         "text": "هلیم - نئون",
                         "isCorrect": false
                     },
                     {
                         "id": 4,
-                        "label": "D",
+                        "label": "د",
                         "text": "هلیوم - نئون",
                         "isCorrect": false
                     }
