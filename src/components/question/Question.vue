@@ -81,4 +81,23 @@ const selectedOption = (isCorrect) => {
     border-radius: 5px;
     
 }
+@media screen and (max-width: 500px) {
+.question-container
+{
+    align-self: center;
+}
+ .question
+ {
+    font-size : 18px;
+    margin: 0 auto;
+ }
+ .option-label
+ {
+    font-size: 15px;
+ }
+ .option-value
+ {
+    font-size: 13px;
+ }
+}
 </style>
