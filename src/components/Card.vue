@@ -11,7 +11,7 @@ const navigateToQuiz = () =>{
 </script>
 <template>
      <div class="card " @click="navigateToQuiz()">
-        <img src="../assets//images//chemistry.png" alt="123" />
+        <img :src="quiz.img" alt="123" />
         <div class="card-text">
           <h2>{{quiz.name}}</h2>
           <p>تعداد سوالات : {{quiz.questions.length}}</p>

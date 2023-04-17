@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "img": "https://marvel-b1-cdn.bc0a.com/f00000000026007/resilienteducator.com/wp-content/uploads/2012/11/AdobeStock_60467600_cup.jpg",
+        "img":" /src/assets/images/math.png",
         "name": "ریاضی",
         "questions": [
             {
@@ -98,7 +98,7 @@
     },
     {
         "id": 2,
-        "img": "https://blogs.biomedcentral.com/on-biology/wp-content/uploads/sites/5/2017/12/DNA.png",
+        "img":"/src/assets/images/biology.png",
         "name": "زیست",
         "questions": [
             {
@@ -195,7 +195,7 @@
     },
     {
         "id": 3,
-        "img": "../assets/images/chemistry.png",
+        "img":" /src/assets/images/chemistry.png",
         "name": "شیمی",
         "questions": [
             {
