@@ -5,7 +5,7 @@ const crrentQuestion= useCurrentQuestionStore()
 const time = useTimeStore() ;
 const timer = setInterval(()=>{
     time.increment();
-    if(time.time === 120) 
+    if(time.time === 240) 
     {
         time.reset();
         if(crrentQuestion.currentQuestionIndex<3)
@@ -29,7 +29,7 @@ const timer = setInterval(()=>{
         <div class="progress-timer-bar">
             <h4>زمان باقی مانده</h4>
             <div class="bar">
-                <div class="time-completion" :style="{'width' : `${(time.time)*(100)/(120)}%`}"></div>
+                <div class="time-completion" :style="{'width' : `${(time.time)*(100)/(240)}%` , 'backgroundColor' : `hsl( ${120-time.time/2}, 100%, 50%)` }"></div>
             </div>
         </div>
     </header>    
@@ -52,13 +52,13 @@ const timer = setInterval(()=>{
 .question-completion
 {
    height : 100%;
-   background-color: aqua;
+   background-color: #2980b9;
    transition  : all 0.4s;
 }
 .time-completion
 {
    height : 100%;
-   background-color: aqua;
+   background-color: #2980b9;
    
 }
 .progress-timer-bar
