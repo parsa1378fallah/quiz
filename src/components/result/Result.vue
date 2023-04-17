@@ -1,6 +1,6 @@
 <script setup>
 import {useRouter} from 'vue-router'
-import {useCurrentQuestionStore} from '../store/currentQuestion'
+import {useCurrentQuestionStore} from '../../store/currentQuestion'
 const router = useRouter()
 const store= useCurrentQuestionStore()
 const goToHomePage = () =>{
@@ -13,7 +13,7 @@ const {questionLength,correctAnswer} = defineProps(['questionLength','correctAns
     <div class="result">
         <p>نتیجه نهایی ...</p>
         <h1>{{parseInt(correctAnswer/questionLength*100)}}%</h1>
-        <button @click="goToHomePage" class="button-85" role="button">بازگشت</button>
+        <button @click="goToHomePage" class="back-button" role="button">بازگشت</button>
     </div>
 </template>
 <style scoped>
@@ -30,7 +30,7 @@ p
 
 
 
-.button-85 {
+.back-button {
   padding: 0.6em 2em;
   border: none;
   outline: none;
@@ -45,7 +45,7 @@ p
   touch-action: manipulation;
 }
 
-.button-85:before {
+.back-button:before {
   content: "";
   background: linear-gradient(
     45deg,
@@ -68,12 +68,12 @@ p
   -webkit-filter: blur(5px);
   width: calc(100% + 4px);
   height: calc(100% + 4px);
-  animation: glowing-button-85 20s linear infinite;
+  animation: glowing-back-button 20s linear infinite;
   transition: opacity 0.3s ease-in-out;
   border-radius: 10px;
 }
 
-@keyframes glowing-button-85 {
+@keyframes glowing-back-button {
   0% {
     background-position: 0 0;
   }
@@ -85,7 +85,7 @@ p
   }
 }
 
-.button-85:after {
+.back-button:after {
   z-index: -1;
   content: "";
   position: absolute;

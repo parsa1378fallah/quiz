@@ -1,5 +1,5 @@
 <script setup>
-import {useTimeStore} from '../store/time'
+import {useTimeStore} from '../../store/time'
 const time = useTimeStore() ;
 const {question} = defineProps(['question'])
 const emit = defineEmits(['selectOption'])
@@ -32,15 +32,25 @@ const selectedOption = (isCorrect) => {
 .question-container
 {
     margin: 20px 0 0 0;
+    padding: 20px;
+    
 }
 .question
 {
     font-size: 25px;
     margin: 0 0 20px 0;
 }
+.option-container
+{
+    position: relative;
+    padding: 20px;
+    width : 100%;
+
+}
 .option
 {
     display: flex;
+    gap : 15px;
     margin: 0 0 20px 0;
     cursor: pointer;
     
@@ -54,14 +64,17 @@ const selectedOption = (isCorrect) => {
     width : 60px;
     min-height: 60px;
     font-size: 24px;
+    border-radius: 50%;
 }
 .option-value
 {
     background: rgb(244,239,239);
-    width : 100%;
+    width : 85%;
     font-size : 20px;
     padding: 0 20px;
     display: flex;
     align-items: center;
+    border-radius: 25px;
+    
 }
 </style>

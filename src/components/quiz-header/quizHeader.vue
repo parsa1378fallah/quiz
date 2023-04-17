@@ -1,6 +1,6 @@
 <script setup>
-import {useCurrentQuestionStore} from '../store/currentQuestion';
-import {useTimeStore} from '../store/time'
+import {useCurrentQuestionStore} from '../../store/currentQuestion';
+import {useTimeStore} from '../../store/time'
 const crrentQuestion= useCurrentQuestionStore()
 const time = useTimeStore() ;
 const timer = setInterval(()=>{
@@ -8,8 +8,8 @@ const timer = setInterval(()=>{
     if(time.time === 120) 
     {
         time.reset();
-        if(crrentQuestion.currentQuestionIndex<3)
-        crrentQuestion.currentQuestionIndex++;
+        // if(crrentQuestion.currentQuestionIndex<3)
+        // crrentQuestion.currentQuestionIndex++;
     } 
     if(crrentQuestion.currentQuestionIndex===3){
         clearInterval(timer)

@@ -1,10 +1,10 @@
 <script setup>
-  import Question from "../components/Question.vue"
-  import Header from '../components/quizHeader.vue'
+  import Question from "../components/question/Question.vue"
+  import Header from '../components/quiz-header/quizHeader.vue'
   import {useRoute} from 'vue-router'
   import {ref , watch} from "vue"
   import quizes from '../data/quiz.json' 
-  import result from '../components/Result.vue'
+  import result from '../components/result/Result.vue'
   import {useCurrentQuestionStore} from '../store/currentQuestion'
   
 
