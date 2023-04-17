@@ -45,8 +45,9 @@ const timer = setInterval(()=>{
 .bar
 {
     width : 300px;
-    height : 50px;
+    height : 15px;
     border : 3px solid bisque;
+    border-radius: 15px;
 }
 .question-completion
 {

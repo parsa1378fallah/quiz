@@ -39,6 +39,10 @@ const selectedOption = (isCorrect) => {
 {
     font-size: 25px;
     margin: 0 0 20px 0;
+    padding: 10px 25px;
+    border-radius: 5px;
+    background: #fff;
+
 }
 .option-container
 {
@@ -62,7 +66,7 @@ const selectedOption = (isCorrect) => {
     align-items: center;
     justify-content: center;
     width : 60px;
-    min-height: 60px;
+    height: 60px;
     font-size: 24px;
     border-radius: 50%;
 }
@@ -74,7 +78,7 @@ const selectedOption = (isCorrect) => {
     padding: 0 20px;
     display: flex;
     align-items: center;
-    border-radius: 25px;
+    border-radius: 5px;
     
 }
 </style>

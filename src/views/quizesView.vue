@@ -35,7 +35,7 @@ watch(search,()=>{quizes.value = q.filter(quiz => quiz.name.toLowerCase().includ
 .header input
 {
   border: none;
-  background: rgba(128,128,128,0.1);
+  background: rgba(128,128,128,0.5);
   padding: 10px;
   border-radius: 10px;
   margin: 0 20px 0 0;

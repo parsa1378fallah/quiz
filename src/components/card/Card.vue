@@ -29,6 +29,7 @@ const navigateToQuiz = () =>{
   margin-right: 20px;
   cursor: pointer;
   transition  : all 0.2s;
+  background: #fff;
 }
 .card:hover
 {
@@ -45,6 +46,7 @@ const navigateToQuiz = () =>{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-top : 1px solid black;
 }
 .card .card-text h2
 {
