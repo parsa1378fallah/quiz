@@ -8,15 +8,15 @@ const timer = setInterval(()=>{
     if(time.time === 120) 
     {
         time.reset();
-        // if(crrentQuestion.currentQuestionIndex<3)
-        // crrentQuestion.currentQuestionIndex++;
+        if(crrentQuestion.currentQuestionIndex<3)
+        crrentQuestion.currentQuestionIndex++;
     } 
     if(crrentQuestion.currentQuestionIndex===3){
         clearInterval(timer)
         time.reset()
     }
     
-},25)
+},50)
 </script>
 <template>
     <header class="header">
@@ -64,5 +64,15 @@ const timer = setInterval(()=>{
 .progress-timer-bar
 {
     align-self: flex-end;
+}
+@media screen and (max-width: 750px) {
+  .header {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .progress-timer-bar
+  {
+    align-self: center;
+  }
 }
 </style>

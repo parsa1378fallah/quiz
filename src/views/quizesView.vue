@@ -44,6 +44,7 @@ watch(search,()=>{quizes.value = q.filter(quiz => quiz.name.toLowerCase().includ
 {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   margin: 40px 0 0 0;
 }
 </style>
