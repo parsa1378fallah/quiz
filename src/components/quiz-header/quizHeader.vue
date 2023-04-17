@@ -37,7 +37,6 @@ const timer = setInterval(()=>{
 <style scoped>
 .header
 {
-    margin: 20px 0 0 0;
     display: flex;
     justify-content: space-around;
     align-items: center;

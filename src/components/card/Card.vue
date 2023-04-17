@@ -55,4 +55,22 @@ const navigateToQuiz = () =>{
 {
   margin: 0 ;
 }
+@media screen and (max-width: 500px) {
+  .card
+  {
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 315px) {
+  .card
+  {
+    width : 250px;
+  }
+  .card img
+  {
+    width: 100%;
+    height : 200px;
+    margin : 0;
+  }
+}
 </style>
