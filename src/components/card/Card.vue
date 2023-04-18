@@ -29,7 +29,7 @@ const navigateToQuiz = () =>{
   margin-right: 20px;
   cursor: pointer;
   transition  : all 0.2s;
-  background: #fff;
+ 
   display: flex;
   flex-direction: column;
 }
@@ -51,6 +51,7 @@ const navigateToQuiz = () =>{
   justify-content: space-between;
   padding: 10px;
   border-top : 1px solid black;
+   background: #f2efef;
 }
 .card .card-text h2
 {

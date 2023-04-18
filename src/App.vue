@@ -4,9 +4,13 @@ import {RouterView} from 'vue-router'
 
 </script>
 
-<template>
+<template >
   <div class="container">
-   <RouterView />
+   <router-view v-slot="{ Component, route }">
+      <transition :name="route.meta.transition">
+        <component :is="Component" />
+      </transition>
+    </router-view>
   </div>
 </template>
 
@@ -19,5 +23,12 @@ import {RouterView} from 'vue-router'
 {
   max-width: 1000px;
   margin: 0 auto;
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 0.4s;
+}
+.fade-enter-from, .fade-leave-to {
+  opacity: 0;
 }
 </style>

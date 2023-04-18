@@ -29,7 +29,7 @@
 
 <template>
     <div>
-        <Header  @timeOut="onTimeOut"/>
+        <Header/>
         <div>
             <Question  v-if="store.currentQuestionIndex<3" :question="quiz.questions[store.currentQuestionIndex]" @selectOption="onOptionSelected" />
             <result v-if="store.currentQuestionIndex===3" :questionLength="quiz.questions.length" :correctAnswer="numberOfCorrectAnswers" />

@@ -7,12 +7,14 @@ const router = createRouter({
         {
             path : "/",
             name : 'quizes',
-            component : Quizes
+            component : Quizes,
+            
         },
         {
             path : "/quiz/:id",
             name : 'quiz',
-            component : Quiz
+            component : Quiz,
+            meta: { transition: 'fade' },
         }
     ]
 })
