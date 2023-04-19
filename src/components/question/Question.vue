@@ -116,13 +116,15 @@ const nextQuestion = (answer)=>
     font-size: 13px;
  }
 }
-.fade-enter-active,
-.fade-leave-active {
-  transition: opacity 0.4s;
-}
-
-.fade-enter-from,
-.fade-leave-to {
+.fade-enter-active{transition: all 1s;}
+.fade-enter-from
+{
   opacity: 0;
+  transform: translateY(10px);
+}
+.fade-enter-to
+{
+    opacity: 1;
+    transform: translateY(0px);
 }
 </style>
