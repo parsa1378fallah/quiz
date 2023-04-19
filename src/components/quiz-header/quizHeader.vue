@@ -1,8 +1,10 @@
 <script setup>
 import {useCurrentQuestionStore} from '../../store/currentQuestion';
 import {useTimeStore} from '../../store/time'
+
 const crrentQuestion= useCurrentQuestionStore()
 const time = useTimeStore() ;
+
 const timer = setInterval(()=>{
     time.increment();
     if(time.time === 240) 

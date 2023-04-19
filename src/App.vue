@@ -1,16 +1,12 @@
 <script setup>
-import {RouterView} from 'vue-router'
+import {RouterView , useRoute} from 'vue-router'
 
-
+const route = useRoute()
 </script>
 
 <template >
   <div class="container">
-   <router-view v-slot="{ Component, route }">
-      <transition :name="route.meta.transition">
-        <component :is="Component" />
-      </transition>
-    </router-view>
+    <router-view></router-view>
   </div>
 </template>
 

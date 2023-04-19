@@ -1,31 +1,47 @@
 <script setup>
-import {useTimeStore} from '../../store/time'
+import {useTimeStore} from '../../store/time';
+import {useCurrentQuestionStore} from '../../store/currentQuestion';
+import {useCorrectQuestions} from "../../store/correctAnswers"
+import {useRoute} from 'vue-router';
+import quizes from '../../data/quiz.json' ;
+
 const time = useTimeStore() ;
-const {question} = defineProps(['question'])
-const emit = defineEmits(['selectOption'])
+const currentQuestion = useCurrentQuestionStore() ;
+const correctQuestions = useCorrectQuestions();
+const route = useRoute()
+const quizId = parseInt(route.params.id)
+const quiz = quizes.find(quiz => quiz.id===quizId)
 
+const nextQuestion = (answer)=>
+{
+    currentQuestion.increment()
+    time.time = 0;
+    if(answer) correctQuestions.increment() 
 
-const selectedOption = (isCorrect) => {
- emit("selectOption",isCorrect)
- time.reset()
 }
+
+
 
 
 </script>
 
 <template>
-    <div>
-        <div class="question-container">
-            <h1 class="question">{{question.text}}</h1>
-        </div>
-        <div class="option-container" >
-            <div class="option" v-for="option in question.options" :key="option.id" @click="selectedOption(option.isCorrect)">
-                <p class="option-label">{{option.label}}</p>
-                <div class="option-value">
-                    <p>{{option.text}}</p>
+    <div v-for="question in quiz.questions" :key="question.id">
+        <transition name="fade" mode="out-in">
+            <div  v-if="question.id-1===currentQuestion.currentQuestionIndex" >
+                <div class="question-container">
+                    <h1 class="question">{{question.text}}</h1>
+                </div>
+                <div class="option-container">
+                    <div class="option" v-for="option in question.options" :key="option.id" @click="nextQuestion(option.isCorrect)">
+                        <p class="option-label">{{option.label}}</p>
+                        <div class="option-value">
+                            <p>{{option.text}}</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+        </transition>
     </div>
 </template>
 <style scoped>
@@ -99,5 +115,14 @@ const selectedOption = (isCorrect) => {
  {
     font-size: 13px;
  }
+}
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.4s;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
 }
 </style>
