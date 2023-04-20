@@ -9,9 +9,32 @@ const store= useCurrentQuestionStore()
     <div>
         <Header/>
         <div>
-            <Question  v-if="store.currentQuestionIndex<3" />
-            <Result v-if="store.currentQuestionIndex===3" />
+            <transition name="switch" mode="in-out">
+                <Question  v-if="store.currentQuestionIndex<3" />
+                <Result v-else />
+            </transition>
+            
         </div>
     </div>
 </template>
-<style scoped></style>
+<style scoped>
+.switch-enter-from,
+.switch-leave-to
+{
+    opacity : 0;
+}
+.switch-enter-to,
+.switch-leave-from
+{
+    opacity: 1;
+}
+
+.switch-enter-active
+{
+    transition: all 1s ease;
+}
+.switch-leave-active
+{
+    transition: all 1s ease;
+}
+</style>

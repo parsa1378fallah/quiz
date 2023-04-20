@@ -27,7 +27,7 @@ const nextQuestion = (answer)=>
 
 <template>
     <div v-for="question in quiz.questions" :key="question.id">
-        <transition name="fade" mode="out-in">
+        <transition name="fade" mode="out-in" appear>
             <div  v-if="question.id-1===currentQuestion.currentQuestionIndex" >
                 <div class="question-container">
                     <h1 class="question">{{question.text}}</h1>
@@ -116,7 +116,7 @@ const nextQuestion = (answer)=>
     font-size: 13px;
  }
 }
-.fade-enter-active{transition: all 1s;}
+.fade-enter-active{transition: all 1s ease;}
 .fade-enter-from
 {
   opacity: 0;

@@ -6,7 +6,11 @@ const route = useRoute()
 
 <template >
   <div class="container">
-    <router-view></router-view>
+    <router-view v-slot="{ Component }">
+      <transition name="fade"  appear>
+        <component :is="Component" />
+      </transition>
+    </router-view>
   </div>
 </template>
 
@@ -20,11 +24,7 @@ const route = useRoute()
   max-width: 1000px;
   margin: 0 auto;
 }
-
-.fade-enter-active, .fade-leave-active {
-  transition: opacity 0.4s;
-}
-.fade-enter-from, .fade-leave-to {
-  opacity: 0;
-}
+.fade-enter-active{transition: all 1s ease-out;}
+.fade-enter-from{opacity: 0;}
+.fade-enter-to{opacity: 1;}
 </style>

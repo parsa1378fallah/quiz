@@ -7,7 +7,6 @@ const router = useRouter()
 const currentQuestion= useCurrentQuestionStore();
 const correctQuestions = useCorrectQuestions() ; 
 const goToHomePage = () =>{
-      router.push(`/`)
       currentQuestion.currentQuestionIndex = 0;
       correctQuestions.correctQuestions = 0;
 }
@@ -17,7 +16,7 @@ console.log(correctQuestions.correctQuestions)
     <div class="result">
         <p>نتیجه نهایی ...</p>
         <h1>{{parseInt(correctQuestions.correctQuestions/3*100)}}%</h1>
-        <back-button @click="goToHomePage()"></back-button>
+        <router-link to="/"><back-button @click="goToHomePage()"></back-button></router-link>
     </div>
 </template>
 <style scoped>
