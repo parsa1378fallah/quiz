@@ -3,14 +3,14 @@ import Question from "../components/question/Question.vue"
 import Header from '../components/quiz-header/quizHeader.vue'
 import Result from '../components/result/Result.vue'
 import {useCurrentQuestionStore} from '../store/currentQuestion'
-const store= useCurrentQuestionStore()
+const currentQuestion = useCurrentQuestionStore()
 </script>
 <template>
     <div>
         <Header/>
         <div>
             <transition name="switch" mode="in-out">
-                <Question  v-if="store.currentQuestionIndex<3" />
+                <Question  v-if="currentQuestion.value<3" />
                 <Result v-else />
             </transition>
             

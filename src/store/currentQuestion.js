@@ -2,11 +2,11 @@ import { ref } from 'vue'
 import { defineStore } from 'pinia'
 
 export const useCurrentQuestionStore = defineStore('currentQuestion', () => {
-  const currentQuestionIndex = ref(0)
+  const value = ref(0)
   function increment() {
     
-    currentQuestionIndex.value++
+    value.value++
   }
 
-  return { currentQuestionIndex , increment }
+  return { value , increment }
 })

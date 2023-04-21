@@ -7,15 +7,14 @@ const router = useRouter()
 const currentQuestion= useCurrentQuestionStore();
 const correctQuestions = useCorrectQuestions() ; 
 const goToHomePage = () =>{
-      currentQuestion.currentQuestionIndex = 0;
-      correctQuestions.correctQuestions = 0;
+      currentQuestion.value = 0;
+      correctQuestions.value = 0;
 }
-console.log(correctQuestions.correctQuestions)
 </script>
 <template>
     <div class="result">
         <p>نتیجه نهایی ...</p>
-        <h1>{{parseInt(correctQuestions.correctQuestions/3*100)}}%</h1>
+        <h1>{{parseInt(correctQuestions.value/3*100)}}%</h1>
         <router-link to="/"><back-button @click="goToHomePage()"></back-button></router-link>
     </div>
 </template>

@@ -10,10 +10,10 @@ const timer = setInterval(()=>{
     if(time.time === 240) 
     {
         time.reset();
-        if(crrentQuestion.currentQuestionIndex<3)
-        crrentQuestion.currentQuestionIndex++;
+        if(crrentQuestion.value<3)
+        crrentQuestion.value++;
     } 
-    if(crrentQuestion.currentQuestionIndex===3){
+    if(crrentQuestion.value===3){
         clearInterval(timer)
         time.reset()
     }
@@ -23,15 +23,15 @@ const timer = setInterval(()=>{
 <template>
     <header class="header">
         <div class="progress-question-bar">
-            <h4>سوال {{crrentQuestion.currentQuestionIndex}}/3</h4>
+            <h4>سوال {{crrentQuestion.value}}/3</h4>
             <div class="bar">
-                <div class="question-completion" :style="{'width' : `${(crrentQuestion.currentQuestionIndex)*100/3}%`}"></div>
+                <div class="question-completion" :style="{'width' : `${(crrentQuestion.value)*100/3}%`}"></div>
             </div>
         </div>
         <div class="progress-timer-bar">
             <h4>زمان باقی مانده</h4>
             <div class="bar">
-                <div class="time-completion" :style="{'width' : `${(time.time)*(100)/(240)}%` , 'backgroundColor' : `hsl( ${120-time.time/2}, 100%, 50%)` }"></div>
+                <div class="time-completion" :style="{'width' : `${(time.value)*(100)/(240)}%` , 'backgroundColor' : `hsl( ${120-time.value/2}, 100%, 50%)` }"></div>
             </div>
         </div>
     </header>    

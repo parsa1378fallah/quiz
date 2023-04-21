@@ -2,14 +2,14 @@ import { ref } from 'vue'
 import { defineStore } from 'pinia'
 
 export const useTimeStore = defineStore('time', () => {
-  const time = ref(0)
+  const value = ref(0)
   function increment() {
-    time.value++
+    value.value++
   }
   function reset()
   {
-    time.value = 0;
+    value.value = 0;
   }
 
-  return { time , increment , reset }
+  return { value , increment , reset }
 })

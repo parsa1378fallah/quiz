@@ -15,7 +15,7 @@ const quiz = quizes.find(quiz => quiz.id===quizId)
 const nextQuestion = (answer)=>
 {
     currentQuestion.increment()
-    time.time = 0;
+    time.value = 0;
     if(answer) correctQuestions.increment() 
 
 }
@@ -28,7 +28,7 @@ const nextQuestion = (answer)=>
 <template>
     <div v-for="question in quiz.questions" :key="question.id">
         <transition name="fade" mode="out-in" appear>
-            <div  v-if="question.id-1===currentQuestion.currentQuestionIndex" >
+            <div  v-if="question.id-1===currentQuestion.value" >
                 <div class="question-container">
                     <h1 class="question">{{question.text}}</h1>
                 </div>
