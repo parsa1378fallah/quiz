@@ -116,11 +116,11 @@ const nextQuestion = (answer)=>
     font-size: 13px;
  }
 }
-.fade-enter-active{transition: all 1s ease;}
+.fade-enter-active{transition: all .6s ease;}
 .fade-enter-from
 {
   opacity: 0;
-  transform: translateY(10px);
+  transform: translateY(6px);
 }
 .fade-enter-to
 {

@@ -6,6 +6,5 @@ export const useCorrectQuestions = defineStore('correctQuestions', () => {
   function increment() {
     value.value++
   }
-
   return { value , increment }
 })
