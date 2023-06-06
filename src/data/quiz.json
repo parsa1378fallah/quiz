@@ -1,488 +1,799 @@
 [
-    {
+  {
+    "id": 1,
+    "img": " /src/assets/images/math.png",
+    "name": "ریاضی",
+    "questions": [
+      {
         "id": 1,
-        "img":" /src/assets/images/math.png",
-        "name": "ریاضی",
-        "questions": [
-            {
-                "id": 1,
-                "text": "عدد 7633 با تقریب کمتر از  .......... برابر 7000 است",
-                "options": [
-                    {
-                        "id": 1,
-                        "label": "الف",
-                        "text": "10",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 2,
-                        "label": "ب",
-                        "text": "100",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 3,
-                        "label": "ج",
-                        "text": "1000",
-                        "isCorrect": true
-                    },
-                    {
-                        "id": 4,
-                        "label": "د",
-                        "text": "100000",
-                        "isCorrect": false
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "text": "حاصل عبارت 27-27*2-1",
-                "options": [
-                    {
-                        "id": 1,
-                        "label": "الف",
-                        "text": "-60",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 2,
-                        "label": "ب",
-                        "text": "-70",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 3,
-                        "label": "ج",
-                        "text": "-80",
-                        "isCorrect": true
-                    },
-                    {
-                        "id": 4,
-                        "label": "د",
-                        "text": "70",
-                        "isCorrect": false
-                    }
-                ]
-            },
-            {
-                "id": 3,
-                "text": "برای اندازه گیری مساحت استان ها از چه واحد اندازه گیری استفاده می شود ؟",
-                "options": [
-                    {
-                        "id": 1,
-                        "label": "الف",
-                        "text": "کیلومتر",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 2,
-                        "label": "ب",
-                        "text": "کیلومتر مربع",
-                        "isCorrect": true
-                    },
-                    {
-                        "id": 3,
-                        "label": "ج",
-                        "text": "متر",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 4,
-                        "label": "د",
-                        "text": "متر مربع",
-                        "isCorrect": false
-                    }
-                ]
-            }
+        "text": "عدد 7633 با تقریب کمتر از  .......... برابر 7000 است",
+        "options": [
+          {
+            "id": 1,
+            "label": "الف",
+            "text": "10",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "ب",
+            "text": "100",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "ج",
+            "text": "1000",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "label": "د",
+            "text": "100000",
+            "isCorrect": false
+          }
         ]
-    },
-    {
+      },
+      {
         "id": 2,
-        "img":"/src/assets/images/biology.png",
-        "name": "زیست",
-        "questions": [
-            {
-                "id": 1,
-                "text": "زیست شناسان برای استفاده موثر تر از سلولز در گیاهان از همه مواد زیر استفاده می کنند به جز :",
-                "options": [
-                    {
-                        "id": 1,
-                        "label": "الف",
-                        "text": "مهندسی کردن ژن های گیاهان برای رشد بیشتر با آب کمتر",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 2,
-                        "label": "ب",
-                        "text": "فراهم کردن آنزیم های مهندسی شده برای تولید بهتر سلولز",
-                        "isCorrect": true
-                    },
-                    {
-                        "id": 3,
-                        "label": "ج",
-                        "text": "مهندسی کردن ژن های گیاهان برای رشد بیشتر با انرژی کمتر",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 4,
-                        "label": "د",
-                        "text": "انتخاب مصنوعی گیاهان که مقدار بیشتر سلولز تولید می کنند",
-                        "isCorrect": false
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "text": "همه موارد زیر در مولکول دنا صدق می کند ، به جز ............",
-                "options": [
-                    {
-                        "id": 1,
-                        "label": "الف",
-                        "text": "با استفاده از آن هویت انسان ها به آسانی مشخص می شود .",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 2,
-                        "label": "ب",
-                        "text": "با بررسی ژن های آن می توان بیماری احتمالی فرد در آینده را مشخص کرد.",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 3,
-                        "label": "ج",
-                        "text": "الگو های رشد و نمو در همه موجودات توسط آن تنظیم شده است .",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 4,
-                        "label": "د",
-                        "text": "در همه سطوح گسترده حیات نقش تنظیم کننده دارد .",
-                        "isCorrect": true
-                    }
-                ]
-            },
-            {
-                "id": 3,
-                "text": "در هر جانور دارای چیندان قطعا",
-                "options": [
-                    {
-                        "id": 1,
-                        "label": "الف",
-                        "text": "گردش خون بسته دیده می شود",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 2,
-                        "label": "ب",
-                        "text": "قلب بیش از دو حفره وجود دارد",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 3,
-                        "label": "ج",
-                        "text": "در سامانه دفعی مثانه دیده میشود",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 4,
-                        "label": "د",
-                        "text": "لوله گوارش شکل گرفته است .",
-                        "isCorrect": true
-                    }
-                ]
-            }
+        "text": "حاصل عبارت 27-27*2-1",
+        "options": [
+          {
+            "id": 1,
+            "label": "الف",
+            "text": "-60",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "ب",
+            "text": "-70",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "ج",
+            "text": "-80",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "label": "د",
+            "text": "70",
+            "isCorrect": false
+          }
         ]
-    },
-    {
+      },
+      {
         "id": 3,
-        "img":" /src/assets/images/chemistry.png",
-        "name": "شیمی",
-        "questions": [
-            {
-                "id": 1,
-                "text": "کدام یک از گزینه های زیر نادرست است ؟",
-                "options": [
-                    {
-                        "id": 1,
-                        "label": "الف",
-                        "text": "دقت ترازوی زرگری یکصدم گرم است",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 2,
-                        "label": "ب",
-                        "text": "عناصر یک ستون در جدول تناوبی خواص شمیایی یکسان دارند",
-                        "isCorrect": true
-                    },
-                    {
-                        "id": 3,
-                        "label": "ج",
-                        "text": "نیلز بور با مدل اتمی خود توانست طیف نشری-خطی عناصر را توضیح دهد",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 4,
-                        "label": "د",
-                        "text": "کلر دارای 2 ایزوتوپ با عدد های جرمی 35 و 37 است",
-                        "isCorrect": false
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "text": "کدام یک از گزینه های زیر جزو فراورده های سوختن ذغال سنگ نیست ؟",
-                "options": [
-                    {
-                        "id": 1,
-                        "label": "الف",
-                        "text": "CO2",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 2,
-                        "label": "ب",
-                        "text": "CO",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 3,
-                        "label": "ج",
-                        "text": "H2O",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 4,
-                        "label": "د",
-                        "text": "SO3",
-                        "isCorrect": true
-                    }
-                ]
-            },
-            {
-                "id": 3,
-                "text": "تعداد خطوط مرئی در طیف نشری-خطی لیتیم با عنصر ...........برابر است و عنصر .............بیشترین خط را در گستره مرئی نسبت به سایر گزینه ها دارد .",
-                "options": [
-                    {
-                        "id": 1,
-                        "label": "الف",
-                        "text": "هیدروژن - هلیوم",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 2,
-                        "label": "ب",
-                        "text": "هیدروژن - نئون",
-                        "isCorrect": true
-                    },
-                    {
-                        "id": 3,
-                        "label": "ج",
-                        "text": "هلیم - نئون",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 4,
-                        "label": "د",
-                        "text": "هلیوم - نئون",
-                        "isCorrect": false
-                    }
-                ]
-            }
+        "text": "برای اندازه گیری مساحت استان ها از چه واحد اندازه گیری استفاده می شود ؟",
+        "options": [
+          {
+            "id": 1,
+            "label": "الف",
+            "text": "کیلومتر",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "ب",
+            "text": "کیلومتر مربع",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "ج",
+            "text": "متر",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "د",
+            "text": "متر مربع",
+            "isCorrect": false
+          }
         ]
-    },
-    {
+      },
+      {
         "id": 4,
-        "img":" /src/assets/images/adabiat.jfif",
-        "name": "ادبیات",
-        "questions": [
-            {
-                "id": 1,
-                "text": "کدام یک از گزینه های زیر مترادف کلمه ویژگی ها می باشد ؟",
-                "options": [
-                    {
-                        "id": 1,
-                        "label": "الف",
-                        "text": "خصایل",
-                        "isCorrect": true
-                    },
-                    {
-                        "id": 2,
-                        "label": "ب",
-                        "text": "مصائب",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 3,
-                        "label": "ج",
-                        "text": "متعالی",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 4,
-                        "label": "د",
-                        "text": "محاورت",
-                        "isCorrect": false
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "text": "شعر کودک از جنس نارنجک از سروده ها کیست ؟",
-                "options": [
-                    {
-                        "id": 1,
-                        "label": "الف",
-                        "text": "حمید سبزواری",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 2,
-                        "label": "ب",
-                        "text": "عباس یمینی شریف",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 3,
-                        "label": "ج",
-                        "text": "محمد دهزیزی",
-                        "isCorrect": true
-                    },
-                    {
-                        "id": 4,
-                        "label": "د",
-                        "text": "مهدی اخوان ثالث",
-                        "isCorrect": false
-                    }
-                ]
-            },
-            {
-                "id": 3,
-                "text": "حافظ در چه قرنی میزیسته است و لقب او چه بوده است ؟",
-                "options": [
-                    {
-                        "id": 1,
-                        "label": "الف",
-                        "text": "قرن 8 - لسان الغیب",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 2,
-                        "label": "ب",
-                        "text": "قرن 6 - خواجه شیرازی",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 3,
-                        "label": "ج",
-                        "text": "قرن 9 -خواجه شیرازی",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 4,
-                        "label": "د",
-                        "text": "قرن 8 - لسان الغیب",
-                        "isCorrect": true
-                    }
-                ]
-            }
+        "question_text": "عبارت x^2 - 4x + 3 را به شکل (x - a)(x - b) بنویسید.",
+        "options": [
+          {
+            "text": "(x - 1)(x + 3)",
+            "isCorrect": false
+          },
+          {
+            "text": "(x - 1)(x - 3)",
+            "isCorrect": false
+          },
+          {
+            "text": "(x - 2)(x - 1)",
+            "isCorrect": true
+          },
+          {
+            "text": "(x + 2)(x - 1)",
+            "isCorrect": false
+          }
         ]
-    },
-    {
+      },
+      {
         "id": 5,
-        "img":" /src/assets/images/dini.jfif",
-        "name": "دینی",
-        "questions": [
-            {
-                "id": 1,
-                "text": "چرا در مسیر وصول به نعمات الهی، لزوماً هر راهی، کارایی لازم را ندارد و کدام عبارت مبین صدق این حقیقت است؟",
-                "options": [
-                    {
-                        "id": 1,
-                        "label": "الف",
-                        "text": "زندگی دینی تنها شیوه قابل اعتمادي است که مقابل هر انسان خردمند قرار دارد - هدف بزرگ با یک زندگی بدون برنامه سازگار نیست. ",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 2,
-                        "label": "ب",
-                        "text": "زندگی دینی تنها شیوه قابل اعتمادي است که مقابل هر انسان خردمند قرار دارد - لازمۀ سعادت انسان، عمل به احکام الهی است.",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 3,
-                        "label": "ج",
-                        "text": "میان نعمت هاي الهی و باید ها و نباید هاي دین ارتباط و هماهنگی برقرار است - هدف بزرگ با یک زندگی بدون برنامه سازگار نیست. ",
-                        "isCorrect": true
-                    },
-                    {
-                        "id": 4,
-                        "label": "د",
-                        "text": "میان نعمت هاي الهی و باید ها و نباید هاي دین ارتباط و هماهنگی برقرار است - لازمۀ سعادت انسان، عمل به احکام الهی است.",
-                        "isCorrect": false
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "text": "اگر با ژرف اندیشی به هستی نظر کنیم، کدام یک از موارد زیر می تواند استباط دقیق تري دربارة انسان و سایر مخلوقات باشد؟",
-                "options": [
-                    {
-                        "id": 1,
-                        "label": "الف",
-                        "text": "ایستادگی در برابر موانع بیرونی تنها امتیاز انسان نبوده بلکه او قادر به ایستادگی در برابر موانع درونی هم هست.",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 2,
-                        "label": "ب",
-                        "text": "ستم روا داشتن به خود که به معناي پیروي از نفس اماره و سرپیچی از فرمان خداست، نوعی انقلاب علیه خویش است.",
-                        "isCorrect": true
-                    },
-                    {
-                        "id": 3,
-                        "label": "ج",
-                        "text": "تنها انسان هاي توبه کار هستند که قادرند بر علیه خویش انقلاب کرده و خود را از ظلم نفس نجات دهند. ",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 4,
-                        "label": "د",
-                        "text": "ایستادگی در برابر موانع درونی همان انقلاب علیه خویش است که از ظرفیت بالاي انسان نسبت به سایر مخلوقات حکایت می کند.",
-                        "isCorrect": false
-                    }
-                ]
-            },
-            {
-                "id": 3,
-                "text": "این که خدا آب را متناسب با ویژگی هایی خلق کرده و ما اختیار بهره گیري از آب را داریم، به ترتیب بیان کدام گزینه است؟",
-                "options": [
-                    {
-                        "id": 1,
-                        "label": "الف",
-                        "text": "قضا - قضا",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 2,
-                        "label": "ب",
-                        "text": "قدر - قضا",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 3,
-                        "label": "ج",
-                        "text": "قضا - قدر",
-                        "isCorrect": true
-                    },
-                    {
-                        "id": 4,
-                        "label": "د",
-                        "text": "قدر - قدر",
-                        "isCorrect": false
-                    }
-                ]
-            }
+        "question_text": "یک دایره با مرکز در مبدا و شعاع ۳ را در نظر بگیرید. معادله این دایره چیست؟",
+        "options": [
+          {
+            "text": "x^2 + y^2 = 9",
+            "isCorrect": true
+          },
+          {
+            "text": "x^2 + y^2 = 6",
+            "isCorrect": false
+          },
+          {
+            "text": "x^2 + y^2 = 12",
+            "isCorrect": false
+          },
+          {
+            "text": "x^2 + y^2 = 4",
+            "isCorrect": false
+          }
         ]
-    }
-
+      },
+      {
+        "id": 6,
+        "question_text": "فرمول عمومی جمع اعداد طبیعی از ۱ تا n چیست؟",
+        "options": [
+          {
+            "text": "n(n+1)",
+            "isCorrect": true
+          },
+          {
+            "text": "n/2 (n+1)",
+            "isCorrect": false
+          },
+          {
+            "text": "n(n-1)/2",
+            "isCorrect": false
+          },
+          {
+            "text": "(n+1)^2",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "question_text": "یک مربع با محیط ۸ سانتی‌متر داده شده است. مساحت این مربع چند سانتی‌متر مربع است؟",
+        "options": [
+          {
+            "text": "۱۶ سانتی‌متر مربع",
+            "isCorrect": false
+          },
+          {
+            "text": "۴ سانتی‌متر مربع",
+            "isCorrect": true
+          },
+          {
+            "text": "۸ سانتی‌متر مربع",
+            "isCorrect": false
+          },
+          {
+            "text": "20 سانتی متر مربع",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "img": "/src/assets/images/biology.png",
+    "name": "زیست",
+    "questions": [
+      {
+        "id": 1,
+        "text": "زیست شناسان برای استفاده موثر تر از سلولز در گیاهان از همه مواد زیر استفاده می کنند به جز :",
+        "options": [
+          {
+            "id": 1,
+            "label": "الف",
+            "text": "مهندسی کردن ژن های گیاهان برای رشد بیشتر با آب کمتر",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "ب",
+            "text": "فراهم کردن آنزیم های مهندسی شده برای تولید بهتر سلولز",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "ج",
+            "text": "مهندسی کردن ژن های گیاهان برای رشد بیشتر با انرژی کمتر",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "د",
+            "text": "انتخاب مصنوعی گیاهان که مقدار بیشتر سلولز تولید می کنند",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "همه موارد زیر در مولکول دنا صدق می کند ، به جز ............",
+        "options": [
+          {
+            "id": 1,
+            "label": "الف",
+            "text": "با استفاده از آن هویت انسان ها به آسانی مشخص می شود .",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "ب",
+            "text": "با بررسی ژن های آن می توان بیماری احتمالی فرد در آینده را مشخص کرد.",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "ج",
+            "text": "الگو های رشد و نمو در همه موجودات توسط آن تنظیم شده است .",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "د",
+            "text": "در همه سطوح گسترده حیات نقش تنظیم کننده دارد .",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "در هر جانور دارای چیندان قطعا",
+        "options": [
+          {
+            "id": 1,
+            "label": "الف",
+            "text": "گردش خون بسته دیده می شود",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "ب",
+            "text": "قلب بیش از دو حفره وجود دارد",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "ج",
+            "text": "در سامانه دفعی مثانه دیده میشود",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "د",
+            "text": "لوله گوارش شکل گرفته است .",
+            "isCorrect": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "img": " /src/assets/images/chemistry.png",
+    "name": "شیمی",
+    "questions": [
+      {
+        "id": 1,
+        "text": "کدام یک از گزینه های زیر نادرست است ؟",
+        "options": [
+          {
+            "id": 1,
+            "label": "الف",
+            "text": "دقت ترازوی زرگری یکصدم گرم است",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "ب",
+            "text": "عناصر یک ستون در جدول تناوبی خواص شمیایی یکسان دارند",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "ج",
+            "text": "نیلز بور با مدل اتمی خود توانست طیف نشری-خطی عناصر را توضیح دهد",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "د",
+            "text": "کلر دارای 2 ایزوتوپ با عدد های جرمی 35 و 37 است",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "کدام یک از گزینه های زیر جزو فراورده های سوختن ذغال سنگ نیست ؟",
+        "options": [
+          {
+            "id": 1,
+            "label": "الف",
+            "text": "CO2",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "ب",
+            "text": "CO",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "ج",
+            "text": "H2O",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "د",
+            "text": "SO3",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "تعداد خطوط مرئی در طیف نشری-خطی لیتیم با عنصر ...........برابر است و عنصر .............بیشترین خط را در گستره مرئی نسبت به سایر گزینه ها دارد .",
+        "options": [
+          {
+            "id": 1,
+            "label": "الف",
+            "text": "هیدروژن - هلیوم",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "ب",
+            "text": "هیدروژن - نئون",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "ج",
+            "text": "هلیم - نئون",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "د",
+            "text": "هلیوم - نئون",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "text": "یکی از خواص فیزیکی یون‌ها نسبت به اتم‌ها چیست؟",
+        "id": 4,
+        "options": [
+          { "text": "اندازه کوچک‌تر", "label": "الف", "isCorrect": false },
+          { "text": "انرژی یونیزاسیون بیشتر", "label": "ب", "isCorrect": true },
+          { "text": "رادیوس کوچک‌تر", "label": "ج", "isCorrect": false },
+          { "text": "شارژ بیشتر", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "از دو عنصر H و F، کدام عنصر دارای بیشترین انرژی الکترونیگی است؟",
+        "id": 5,
+        "options": [
+          { "text": "H", "label": "الف", "isCorrect": true },
+          { "text": "F", "label": "ب", "isCorrect": false },
+          {
+            "text": "هر دو عنصر دارای انرژی الکترونیگی برابر هستند.",
+            "label": "ج",
+            "isCorrect": false
+          },
+          {
+            "text": "هر دو عنصر دارای انرژی الکترونیگی برابر نیستند.",
+            "label": "د",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "text": "در یک آزمایش شیمیایی، ۰.۲۰۰ مول از یک ترکیب X با فرمول شیمیایی C4H6O4 به دست آمد. اگر جرم مولی این ترکیب برابر با ۱۱۰٫۰ گرم بر مول باشد، جرم تقریبی ترکیب X برابر با چند گرم است؟",
+        "id": 6,
+        "options": [
+          { "text": "۲۲ گرم", "label": "الف", "isCorrect": true },
+          { "text": "۴۴ گرم", "label": "ب", "isCorrect": false },
+          { "text": "۶۶ گرم", "label": "ج", "isCorrect": false },
+          { "text": "۸۸ گرم", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "در یک آزمایش شیمیایی، برای تولید ۲۰۰ گرم از یک ترکیب با فرمول شیمیایی C3H8O نیاز است ۴۱۶٫۲۸ گرم از ترکیب C2H5OH به همراه مقدار کافی آب استفاده شود. گزینه صحیح در مورد این ترکیب چیست؟",
+        "id": 7,
+        "options": [
+          {
+            "text": "ترکیب C3H8O جزء‌هایی از ترکیب C2H5OH و آب است.",
+            "label": "الف",
+            "isCorrect": false
+          },
+          {
+            "text": "ترکیب C3H8O ترکیبی متفاوت با ترکیب C2H5OH و آب است.",
+            "label": "ب",
+            "isCorrect": true
+          },
+          {
+            "text": "ترکیب C3H8O یکی از موادی است که در آزمایش بکار رفته است.",
+            "label": "ج",
+            "isCorrect": false
+          },
+          {
+            "text": "ترکیب C3H8O یکی از نوع‌های ترکیب C2H5OH است.",
+            "label": "د",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "text": "کدام یک از موارد زیر، نماینده انحلال‌پذیری یک ترکیب است؟",
+        "id": 8,
+        "options": [
+          {
+            "text": "ترکیبی که با آب مخلوط می‌شود و به شکل یکپارچه در هم محلول نمی‌شود.",
+            "label": "الف",
+            "isCorrect": true
+          },
+          {
+            "text": "ترکیبی که با آب مخلوط می‌شود و به شکل یکپارچه در هم محلول می‌شود.",
+            "label": "ب",
+            "isCorrect": false
+          },
+          {
+            "text": "ترکیبی که با گرمای زیاد از حالت جامد به حالت مایع تبدیل می‌شود.",
+            "label": "ج",
+            "isCorrect": false
+          },
+          {
+            "text": "ترکیبی که با گرمای زیاد از حالت مایع به حالت گاز تبدیل می‌شود.",
+            "label": "د",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "text": "ماده‌ای که با فرمول شیمیایی CH2O مشخص می‌شود، چه ماده‌ای است؟",
+        "id": 9,
+        "options": [
+          { "text": "فرمالین", "label": "الف", "isCorrect": true },
+          { "text": "استات", "label": "ب", "isCorrect": false },
+          { "text": "استات اتیل", "label": "ج", "isCorrect": false },
+          { "text": "استات بوتیل", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "در یک آزمایش شیمیایی، ۲۰۰ میلی‌لیتر از یک محلول آبی شامل ۰٫۰۱ مول یون‌هیدروژن سولفات (H2SO4) با غلظت مولاریته ۰٫۲۰۰ مول بر لیتر را از دستگاه برج‌های خنک کننده عبور داده می‌شود. اگر این محلول به دستگاه با pH = ۳ درجه وارد شود، تقریبا تعداد چند مول یون هیدروکسید (OH-) در آن وجود دارد؟",
+        "id": 10,
+        "options": [
+          { "text": "۵٫۵ × ۱۰-۹ مول", "label": "الف", "isCorrect": false },
+          { "text": "۲٫۲ × ۱۰-۹ مول", "label": "ب", "isCorrect": true },
+          { "text": "۱٫۱ × ۱۰-۹ مول", "label": "ج", "isCorrect": false },
+          { "text": "۴٫۴ × ۱۰-۹ مول", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "بزرگترین دیوارهای محافظ سلولی کدام گروه از ترکیبات شیمیایی را تشکیل می‌دهند؟",
+        "id": 11,
+        "options": [
+          { "text": "پروتئین", "label": "الف", "isCorrect": false },
+          { "text": "لیپید", "label": "ب", "isCorrect": true },
+          { "text": "کربوهیدرات", "label": "ج", "isCorrect": false },
+          { "text": "اسید نوکلئیک", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "کدام یک از این گازها در جوی زمین بیشترین میزان دارد؟",
+        "id": 12,
+        "options": [
+          { "text": "نیتروژن", "label": "الف", "isCorrect": true },
+          { "text": "اکسیژن", "label": "ب", "isCorrect": false },
+          { "text": "آرگون", "label": "ج", "isCorrect": false },
+          { "text": "دی اکسید کربن", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "محل شیمیایی تجمع الکترون‌ها در یک اتم به نام چیست؟",
+        "id": 13,
+        "options": [
+          { "text": "میدان مغناطیسی", "label": "الف", "isCorrect": false },
+          { "text": "میدان الکتریکی", "label": "ب", "isCorrect": false },
+          { "text": "میدان گرادیان", "label": "ج", "isCorrect": false },
+          { "text": "میدان الکترواستاتیکی", "label": "د", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "کدام یک از این عناصر فلزی است؟",
+        "id": 14,
+        "options": [
+          { "text": "نیتروژن", "label": "الف", "isCorrect": false },
+          { "text": "کربن", "label": "ب", "isCorrect": false },
+          { "text": "کلر", "label": "ج", "isCorrect": false },
+          { "text": "سدیم", "label": "د", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "عنصری که در جدول تناوبی در دوره چهارم و گروه ۱۶ قرار دارد، چه نوع ماده‌ای است؟",
+        "id": 15,
+        "options": [
+          { "text": "فلز", "label": "الف", "isCorrect": false },
+          { "text": "نیمه فلز", "label": "ب", "isCorrect": false },
+          { "text": "غیرفلز", "label": "ج", "isCorrect": true },
+          { "text": "همه موارد", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "بزرگترین گروه غذایی که اکثر اسیدهای آمینه آن دارای گروه آمین هستند، کدام است؟",
+        "id": 16,
+        "options": [
+          { "text": "لیپیدها", "label": "الف", "isCorrect": false },
+          { "text": "کربوهیدرات‌ها", "label": "ب", "isCorrect": false },
+          { "text": "ویتامین‌ها", "label": "ج", "isCorrect": false },
+          { "text": "پروتئین‌ها", "label": "د", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "تعداد اتم‌های هیدروژن در یک مول از آمونیاک چند عدد است؟",
+        "id": 17,
+        "options": [
+          { "text": "۱ N", "label": "الف", "isCorrect": false },
+          { "text": "۳ N", "label": "ب", "isCorrect": true },
+          { "text": "۴ N", "label": "ج", "isCorrect": false },
+          { "text": "۶ N", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "کدام یک از این ترکیبات شیمیایی برای صنعت پتروشیمی مهم است؟",
+        "id": 18,
+        "options": [
+          { "text": "اکسیژن", "label": "الف", "isCorrect": false },
+          { "text": "نیتروژن", "label": "ب", "isCorrect": false },
+          { "text": "آمونیاک", "label": "ج", "isCorrect": true },
+          { "text": "همه موارد", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "کدام یک از این گازها در جوی زمین بیشترین کمیت دارد؟",
+        "id": 19,
+        "options": [
+          { "text": "اکسیژن", "label": "الف", "isCorrect": false },
+          { "text": "نیتروژن", "label": "ب", "isCorrect": true },
+          { "text": "آرگون", "label": "ج", "isCorrect": false },
+          { "text": "دی اکسید کربن", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "ترکیب موجود در دستگاه گوارش انسان که باعث بوجودآمدن اسیدهای آمینه مختلف می‌شود، کدام است؟",
+        "id": 20,
+        "options": [
+          { "text": "پروتئین", "label": "الف", "isCorrect": true },
+          { "text": "لیپید", "label": "ب", "isCorrect": false },
+          { "text": "کربوهیدرات", "label": "ج", "isCorrect": false },
+          { "text": "اسید نوکلئیک", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "اصطلاحی که برای توصیف آن استفاده می‌شود که دو ترکیب شیمیایی با هم تعامل می‌کنند و باعث تغییر در ویژگی‌ها و خواص آن‌ها می‌شوند، چیست؟",
+        "id": 21,
+        "options": [
+          { "text": "مولکولاریته", "label": "الف", "isCorrect": false },
+          {
+            "text": "اصطلاحی که برای توصیف این موضوع استفاده نمی‌شود",
+            "label": "ب",
+            "isCorrect": false
+          },
+          { "text": "ترکیب شیمیایی", "label": "ج", "isCorrect": false },
+          { "text": "واکنش شیمیایی", "label": "د", "isCorrect": true }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "img": " /src/assets/images/adabiat.jfif",
+    "name": "ادبیات",
+    "questions": [
+      {
+        "id": 1,
+        "text": "کدام یک از گزینه های زیر مترادف کلمه ویژگی ها می باشد ؟",
+        "options": [
+          {
+            "id": 1,
+            "label": "الف",
+            "text": "خصایل",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "ب",
+            "text": "مصائب",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "ج",
+            "text": "متعالی",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "د",
+            "text": "محاورت",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "شعر کودک از جنس نارنجک از سروده ها کیست ؟",
+        "options": [
+          {
+            "id": 1,
+            "label": "الف",
+            "text": "حمید سبزواری",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "ب",
+            "text": "عباس یمینی شریف",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "ج",
+            "text": "محمد دهزیزی",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "label": "د",
+            "text": "مهدی اخوان ثالث",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "حافظ در چه قرنی میزیسته است و لقب او چه بوده است ؟",
+        "options": [
+          {
+            "id": 1,
+            "label": "الف",
+            "text": "قرن 8 - لسان الغیب",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "ب",
+            "text": "قرن 6 - خواجه شیرازی",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "ج",
+            "text": "قرن 9 -خواجه شیرازی",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "د",
+            "text": "قرن 8 - لسان الغیب",
+            "isCorrect": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "img": " /src/assets/images/dini.jfif",
+    "name": "دینی",
+    "questions": [
+      {
+        "id": 1,
+        "text": "چرا در مسیر وصول به نعمات الهی، لزوماً هر راهی، کارایی لازم را ندارد و کدام عبارت مبین صدق این حقیقت است؟",
+        "options": [
+          {
+            "id": 1,
+            "label": "الف",
+            "text": "زندگی دینی تنها شیوه قابل اعتمادي است که مقابل هر انسان خردمند قرار دارد - هدف بزرگ با یک زندگی بدون برنامه سازگار نیست. ",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "ب",
+            "text": "زندگی دینی تنها شیوه قابل اعتمادي است که مقابل هر انسان خردمند قرار دارد - لازمۀ سعادت انسان، عمل به احکام الهی است.",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "ج",
+            "text": "میان نعمت هاي الهی و باید ها و نباید هاي دین ارتباط و هماهنگی برقرار است - هدف بزرگ با یک زندگی بدون برنامه سازگار نیست. ",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "label": "د",
+            "text": "میان نعمت هاي الهی و باید ها و نباید هاي دین ارتباط و هماهنگی برقرار است - لازمۀ سعادت انسان، عمل به احکام الهی است.",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "اگر با ژرف اندیشی به هستی نظر کنیم، کدام یک از موارد زیر می تواند استباط دقیق تري دربارة انسان و سایر مخلوقات باشد؟",
+        "options": [
+          {
+            "id": 1,
+            "label": "الف",
+            "text": "ایستادگی در برابر موانع بیرونی تنها امتیاز انسان نبوده بلکه او قادر به ایستادگی در برابر موانع درونی هم هست.",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "ب",
+            "text": "ستم روا داشتن به خود که به معناي پیروي از نفس اماره و سرپیچی از فرمان خداست، نوعی انقلاب علیه خویش است.",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "ج",
+            "text": "تنها انسان هاي توبه کار هستند که قادرند بر علیه خویش انقلاب کرده و خود را از ظلم نفس نجات دهند. ",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "د",
+            "text": "ایستادگی در برابر موانع درونی همان انقلاب علیه خویش است که از ظرفیت بالاي انسان نسبت به سایر مخلوقات حکایت می کند.",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "این که خدا آب را متناسب با ویژگی هایی خلق کرده و ما اختیار بهره گیري از آب را داریم، به ترتیب بیان کدام گزینه است؟",
+        "options": [
+          {
+            "id": 1,
+            "label": "الف",
+            "text": "قضا - قضا",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "ب",
+            "text": "قدر - قضا",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "ج",
+            "text": "قضا - قدر",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "label": "د",
+            "text": "قدر - قدر",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  }
 ]

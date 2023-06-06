@@ -11,7 +11,9 @@ const navigateToQuiz = () =>{
 </script>
 <template>
      <div class="card " @click="navigateToQuiz()">
-        <img :src="quiz.img" alt="123" />
+      <div class="image">
+        <img :src="quiz.img" alt="123" class="image" />
+      </div>
         <div class="card-text">
           <h2>{{quiz.name}}</h2>
           <p>تعداد سوالات : {{quiz.questions.length}}</p>
@@ -19,6 +21,11 @@ const navigateToQuiz = () =>{
       </div>
 </template>
 <style scoped>
+.image
+{
+  background: #fff;
+  
+}
 .card
 {
   width : 310px;
@@ -39,7 +46,7 @@ const navigateToQuiz = () =>{
 .card img
 {
   width: 100%;
-  height : 220px;
+  height : 230px;
   margin : 0;
   
 }

@@ -7,7 +7,7 @@ const time = useTimeStore() ;
 
 const timer = setInterval(()=>{
     time.increment();
-    if(time.time === 240) 
+    if(time.value === 240) 
     {
         time.reset();
         if(crrentQuestion.value<3)
@@ -22,8 +22,8 @@ const timer = setInterval(()=>{
 </script>
 <template>
     <header class="header">
-        <div class="progress-question-bar">
-            <h4>سوال {{crrentQuestion.value}}/3</h4>
+        <div class="progress-question-bar ">
+            <h4 class="text-red-700">سوال {{crrentQuestion.value}}/3</h4>
             <div class="bar">
                 <div class="question-completion" :style="{'width' : `${(crrentQuestion.value)*100/3}%`}"></div>
             </div>
