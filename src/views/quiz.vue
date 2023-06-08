@@ -3,17 +3,20 @@ import Question from "../components/question/Question.vue"
 import Header from '../components/quiz-header/quizHeader.vue'
 import Result from '../components/result/Result.vue'
 import {useCurrentQuestionStore} from '../store/currentQuestion'
+import {useNumberOfQuestions} from "../store/NumberOfQuestionws";
+
 const currentQuestion = useCurrentQuestionStore()
+const numberOfQuestions = useNumberOfQuestions()
+
 </script>
 <template>
     <div>
         <Header/>
         <div>
             <transition name="switch" mode="in-out">
-                <Question  v-if="currentQuestion.value<3" />
+                <Question  v-if="currentQuestion.value<numberOfQuestions.value" />
                 <Result v-else />
             </transition>
-            
         </div>
     </div>
 </template>

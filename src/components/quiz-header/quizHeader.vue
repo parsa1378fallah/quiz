@@ -1,10 +1,11 @@
 <script setup>
 import {useCurrentQuestionStore} from '../../store/currentQuestion';
 import {useTimeStore} from '../../store/time'
+import {useNumberOfQuestions} from "../../store/NumberOfQuestionws";
 
 const crrentQuestion= useCurrentQuestionStore()
 const time = useTimeStore() ;
-
+const numberOfQuestions = useNumberOfQuestions()
 const timer = setInterval(()=>{
     time.increment();
     if(time.value === 240) 
@@ -13,7 +14,7 @@ const timer = setInterval(()=>{
         if(crrentQuestion.value<3)
         crrentQuestion.value++;
     } 
-    if(crrentQuestion.value===3){
+    if(crrentQuestion.value===numberOfQuestions.value){
         clearInterval(timer)
         time.reset()
     }
@@ -23,9 +24,9 @@ const timer = setInterval(()=>{
 <template>
     <header class="header">
         <div class="progress-question-bar ">
-            <h4 class="text-red-700">سوال {{crrentQuestion.value}}/3</h4>
+            <h4 class="text-red-700">سوال {{crrentQuestion.value}}/{{numberOfQuestions.value}}</h4>
             <div class="bar">
-                <div class="question-completion" :style="{'width' : `${(crrentQuestion.value)*100/3}%`}"></div>
+                <div class="question-completion" :style="{'width' : `${(crrentQuestion.value)*100/numberOfQuestions.value}%`}"></div>
             </div>
         </div>
         <div class="progress-timer-bar">

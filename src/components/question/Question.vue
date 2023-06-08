@@ -2,22 +2,34 @@
 import {useTimeStore} from '../../store/time';
 import {useCurrentQuestionStore} from '../../store/currentQuestion';
 import {useCorrectQuestions} from "../../store/correctAnswers"
+import {useNumberOfQuestions} from "../../store/NumberOfQuestionws";
 import {useRoute} from 'vue-router';
 import quizes from '../../data/quiz.json' ;
 
 const time = useTimeStore() ;
 const currentQuestion = useCurrentQuestionStore() ;
 const correctQuestions = useCorrectQuestions();
+const numberOfQuestions = useNumberOfQuestions()
 const route = useRoute()
 const quizId = parseInt(route.params.id)
 const quiz = quizes.find(quiz => quiz.id===quizId)
+function randomQuestions(arr, num) {
+  let uniqueElements = new Set();
+  while (uniqueElements.size < num) {
+    let randomIndex = Math.floor(Math.random() * arr.length);
+    let randomElement = arr[randomIndex];
+    uniqueElements.add(randomElement);
+  }
+  return Array.from(uniqueElements);
+}
 
+const questions = randomQuestions(quiz.questions,numberOfQuestions.value)
+console.log(questions)
 const nextQuestion = (answer)=>
 {
     currentQuestion.increment()
     time.value = 0;
     if(answer) correctQuestions.increment() 
-
 }
 
 
@@ -26,9 +38,9 @@ const nextQuestion = (answer)=>
 </script>
 
 <template>
-    <div v-for="question in quiz.questions" :key="question.id">
+    <div v-for="(question,index) in questions" :key="question.id">
         <transition name="fade" mode="out-in" appear>
-            <div  v-if="question.id-1===currentQuestion.value" >
+            <div  v-if="index===currentQuestion.value" >
                 <div class="question-container">
                     <h1 class="question">{{question.text}}</h1>
                 </div>
