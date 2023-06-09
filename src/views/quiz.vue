@@ -3,7 +3,7 @@ import Question from "../components/question/Question.vue"
 import Header from '../components/quiz-header/quizHeader.vue'
 import Result from '../components/result/Result.vue'
 import {useCurrentQuestionStore} from '../store/currentQuestion'
-import {useNumberOfQuestions} from "../store/NumberOfQuestionws";
+import {useNumberOfQuestions} from "../store/NumberOfQuestions";
 
 const currentQuestion = useCurrentQuestionStore()
 const numberOfQuestions = useNumberOfQuestions()

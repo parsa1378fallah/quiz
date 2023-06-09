@@ -43,7 +43,7 @@
 </template>
 <script setup>
 import { useRoute , RouterLink } from "vue-router";
-import {useNumberOfQuestions} from "../store/NumberOfQuestionws";
+import {useNumberOfQuestions} from "../store/NumberOfQuestions";
 import { ref, watch } from 'vue'
 import q from "../data/quiz"
 const router = useRoute()

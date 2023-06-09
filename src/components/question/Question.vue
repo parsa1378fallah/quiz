@@ -2,14 +2,16 @@
 import {useTimeStore} from '../../store/time';
 import {useCurrentQuestionStore} from '../../store/currentQuestion';
 import {useCorrectQuestions} from "../../store/correctAnswers"
-import {useNumberOfQuestions} from "../../store/NumberOfQuestionws";
+import {useNumberOfQuestions} from "../../store/NumberOfQuestions";
+import {useNotAnsweredQuestions} from "../../store/notAnsweredQuestions";
 import {useRoute} from 'vue-router';
 import quizes from '../../data/quiz.json' ;
 
 const time = useTimeStore() ;
 const currentQuestion = useCurrentQuestionStore() ;
 const correctQuestions = useCorrectQuestions();
-const numberOfQuestions = useNumberOfQuestions()
+const numberOfQuestions = useNumberOfQuestions();
+
 const route = useRoute()
 const quizId = parseInt(route.params.id)
 const quiz = quizes.find(quiz => quiz.id===quizId)

@@ -96,21 +96,25 @@
       },
       {
         "id": 4,
-        "question_text": "عبارت x^2 - 4x + 3 را به شکل (x - a)(x - b) بنویسید.",
+        "text": "عبارت x^2 - 4x + 3 را به شکل (x - a)(x - b) بنویسید.",
         "options": [
           {
+            "label": "الف",
             "text": "(x - 1)(x + 3)",
             "isCorrect": false
           },
           {
+            "label": "ب",
             "text": "(x - 1)(x - 3)",
             "isCorrect": false
           },
           {
+            "label": "ج",
             "text": "(x - 2)(x - 1)",
             "isCorrect": true
           },
           {
+            "label": "د",
             "text": "(x + 2)(x - 1)",
             "isCorrect": false
           }
@@ -118,21 +122,25 @@
       },
       {
         "id": 5,
-        "question_text": "یک دایره با مرکز در مبدا و شعاع ۳ را در نظر بگیرید. معادله این دایره چیست؟",
+        "text": "یک دایره با مرکز در مبدا و شعاع ۳ را در نظر بگیرید. معادله این دایره چیست؟",
         "options": [
           {
+            "label": "الف",
             "text": "x^2 + y^2 = 9",
             "isCorrect": true
           },
           {
+            "label": "ب",
             "text": "x^2 + y^2 = 6",
             "isCorrect": false
           },
           {
+            "label": "ج",
             "text": "x^2 + y^2 = 12",
             "isCorrect": false
           },
           {
+            "label": "د",
             "text": "x^2 + y^2 = 4",
             "isCorrect": false
           }
@@ -140,21 +148,25 @@
       },
       {
         "id": 6,
-        "question_text": "فرمول عمومی جمع اعداد طبیعی از ۱ تا n چیست؟",
+        "text": "فرمول عمومی جمع اعداد طبیعی از ۱ تا n چیست؟",
         "options": [
           {
+            "label": "الف",
             "text": "n(n+1)",
             "isCorrect": true
           },
           {
+            "label": "ب",
             "text": "n/2 (n+1)",
             "isCorrect": false
           },
           {
+            "label": "ج",
             "text": "n(n-1)/2",
             "isCorrect": false
           },
           {
+            "label": "د",
             "text": "(n+1)^2",
             "isCorrect": false
           }
@@ -162,26 +174,57 @@
       },
       {
         "id": 7,
-        "question_text": "یک مربع با محیط ۸ سانتی‌متر داده شده است. مساحت این مربع چند سانتی‌متر مربع است؟",
+        "text": "یک مربع با محیط ۸ سانتی‌متر داده شده است. مساحت این مربع چند سانتی‌متر مربع است؟",
         "options": [
           {
+            "label": "الف",
             "text": "۱۶ سانتی‌متر مربع",
             "isCorrect": false
           },
           {
+            "label": "ب",
             "text": "۴ سانتی‌متر مربع",
             "isCorrect": true
           },
           {
+            "label": "ج",
             "text": "۸ سانتی‌متر مربع",
             "isCorrect": false
           },
           {
+            "label": "د",
             "text": "20 سانتی متر مربع",
             "isCorrect": false
           }
         ]
+      },
+      {
+        "id": 8,
+        "text": "اگر امروز فردا بود الان چند شنبه بود ؟",
+        "options": [
+          {
+            "label": "الف",
+            "text": "دوشنبه",
+            "isCorrect": false
+          },
+          {
+            "label": "ب",
+            "text": "یک شنبه",
+            "isCorrect": true
+          },
+          {
+            "label": "ج",
+            "text": "چهارشنبه",
+            "isCorrect": false
+          },
+          {
+            "label": "د",
+            "text": "جمعه",
+            "isCorrect": false
+          }
+        ]
       }
+      
     ]
   },
   {
@@ -275,6 +318,96 @@
             "id": 4,
             "label": "د",
             "text": "لوله گوارش شکل گرفته است .",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "در چه بخشی از چشم نور به عصب بینایی منتقل می شود؟",
+        "options": [
+          {
+            "id": 1,
+            "text": "عدسی",
+            "label": "الف",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "text": "قرنیه",
+            "label": "ب",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "text": "چشمچه",
+            "label": "ج",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "text": "تاریکی نخاعی",
+            "label": "د",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "text": "کدامیک از عضلات زیر اندامی بدن ما بزرگترین حجم را دارد؟",
+        "options": [
+          {
+            "id": 1,
+            "text": "عضلات ران",
+            "label": "الف",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "text": "عضلات شکمی",
+            "label": "ب",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "text": "عضلات بازو",
+            "label": "ج",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "text": "عضلات پشتی",
+            "label": "د",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "text": "در چه فازی از دوره سلولی میتوانیم خلاف جهت DNA را تشخیص دهیم؟",
+        "options": [
+          {
+            "id": 1,
+            "text": "فاز G1",
+            "label": "الف",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "text": "فاز S",
+            "label": "ب",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "text": "فاز G2",
+            "label": "ج",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "text": "فاز M",
+            "label": "د",
             "isCorrect": true
           }
         ]

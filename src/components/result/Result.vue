@@ -2,14 +2,17 @@
 import { useRouter } from "vue-router";
 import { useCurrentQuestionStore } from "../../store/currentQuestion";
 import { useCorrectQuestions } from "../../store/correctAnswers";
+import {useNotAnsweredQuestions} from "../../store/notAnsweredQuestions";
 import BackButton from "../buttons/BackButton.vue";
 import chart from "../chart/chart.vue";
 const router = useRouter();
 const currentQuestion = useCurrentQuestionStore();
 const correctQuestions = useCorrectQuestions();
+const notAnsweredQuestions = useNotAnsweredQuestions();
 const goToHomePage = () => {
   currentQuestion.value = 0;
   correctQuestions.value = 0;
+  notAnsweredQuestions.value = 0;
 };
 </script>
 <template>

@@ -1,20 +1,27 @@
 <script setup>
 import {useCurrentQuestionStore} from '../../store/currentQuestion';
 import {useTimeStore} from '../../store/time'
-import {useNumberOfQuestions} from "../../store/NumberOfQuestionws";
+import {useNumberOfQuestions} from "../../store/NumberOfQuestions";
+import {useNotAnsweredQuestions} from "../../store/notAnsweredQuestions";
 
-const crrentQuestion= useCurrentQuestionStore()
+const notAnsweredQuestions = useNotAnsweredQuestions();
+const currentQuestion= useCurrentQuestionStore()
 const time = useTimeStore() ;
 const numberOfQuestions = useNumberOfQuestions()
+
 const timer = setInterval(()=>{
     time.increment();
     if(time.value === 240) 
     {
         time.reset();
-        if(crrentQuestion.value<3)
-        crrentQuestion.value++;
+        if(currentQuestion.value<numberOfQuestions.value)
+        {
+            currentQuestion.value++;
+            notAnsweredQuestions.value++;
+        }
+        
     } 
-    if(crrentQuestion.value===numberOfQuestions.value){
+    if(currentQuestion.value===numberOfQuestions.value){
         clearInterval(timer)
         time.reset()
     }
@@ -24,9 +31,9 @@ const timer = setInterval(()=>{
 <template>
     <header class="header">
         <div class="progress-question-bar ">
-            <h4 class="text-red-700">سوال {{crrentQuestion.value}}/{{numberOfQuestions.value}}</h4>
+            <h4 class="text-red-700">سوال {{currentQuestion.value}}/{{numberOfQuestions.value}}</h4>
             <div class="bar">
-                <div class="question-completion" :style="{'width' : `${(crrentQuestion.value)*100/numberOfQuestions.value}%`}"></div>
+                <div class="question-completion" :style="{'width' : `${(currentQuestion.value)*100/numberOfQuestions.value}%`}"></div>
             </div>
         </div>
         <div class="progress-timer-bar">
