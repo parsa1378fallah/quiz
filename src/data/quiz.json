@@ -223,8 +223,177 @@
             "isCorrect": false
           }
         ]
+      },
+      {
+        "text": "در چند حالت مختلف، ۳ راه متفاوت برای جابجایی یک شیء از نقطه A به نقطه B وجود دارد؟",
+        "id": 9,
+        "options": [
+          { "text": "۱", "label": "الف", "isCorrect": false },
+          { "text": "۲", "label": "ب", "isCorrect": false },
+          { "text": "۳", "label": "ج", "isCorrect": true },
+          { "text": "۴", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "مجموع اعداد فرد کوچک‌تر از ۱۰۰ چقدر است؟",
+        "id": 10,
+        "options": [
+          { "text": "۲۴۵۰", "label": "الف", "isCorrect": true },
+          { "text": "۲۴۶۰", "label": "ب", "isCorrect": false },
+          { "text": "۲۴۷۰", "label": "ج", "isCorrect": false },
+          { "text": "۲۴۸۰", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "اگر ۲۰٪ از یک عدد، ۲۰ باشد، آن عدد چیست؟",
+        "id": 11,
+        "options": [
+          { "text": "۵", "label": "الف", "isCorrect": false },
+          { "text": "۲۰", "label": "ب", "isCorrect": true },
+          { "text": "۱۰۰", "label": "ج", "isCorrect": false },
+          { "text": "۱۰", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "اگر یک مثلث قائم‌الزاویه، مساحت ۲۰ و فرضیه او را ۵ باشد، طول دیگر ضلع چقدر است؟",
+        "id": 12,
+        "options": [
+          { "text": "۴", "label": "الف", "isCorrect": false },
+          { "text": "۵", "label": "ب", "isCorrect": false },
+          { "text": "۶", "label": "ج", "isCorrect": true },
+          { "text": "۷", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "معکوس عدد ۱۲۵ چیست؟",
+        "id": 13,
+        "options": [
+          { "text": "۰.۰۸", "label": "الف", "isCorrect": false },
+          { "text": "۰.۰۰۸", "label": "ب", "isCorrect": false },
+          { "text": "۰.۰۰۰۸", "label": "ج", "isCorrect": true },
+          { "text": "۰.۰۰۰۰۸", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "اگر ۲ نفر از ۱۰ نفر در یک کلاس، دختر باشند، چند نفر پسر در کلاس هستند؟",
+        "id": 14,
+        "options": [
+          { "text": "۴", "label": "الف", "isCorrect": false },
+          { "text": "۶", "label": "ب", "isCorrect": true },
+          { "text": "۸", "label": "ج", "isCorrect": false },
+          { "text": "۱۰", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "اگر عدد ۶۰۰ را بر ۵۰ تقسیم کنیم، چند باقی‌مانده داریم؟",
+        "id": 15,
+        "options": [
+          { "text": "۰", "label": "الف", "isCorrect": true },
+          { "text": "۱", "label": "ب", "isCorrect": false },
+          { "text": "۲", "label": "ج", "isCorrect": false },
+          { "text": "۳", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "اگر معکوس عدد ۳۰۰۰۰ ۰.۰۰۰۰۰۱ باشد، آن عدد چقدر است؟",
+        "id": 16,
+        "options": [
+          { "text": "۳۰۰۰", "label": "الف", "isCorrect": false },
+          { "text": "۳۰۰۰۰۰", "label": "ب", "isCorrect": false },
+          { "text": "۳۰۰۰۰۰۰", "label": "ج", "isCorrect": true },
+          { "text": "۳۰۰۰۰۰۰۰", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "اگر معادل سینوسی یک زاویه برابر با ۰.۶ باشد، آن زاویه چقدر است؟",
+        "id": 17,
+        "options": [
+          { "text": "۳۶", "label": "الف", "isCorrect": false },
+          { "text": "۴۵", "label": "ب", "isCorrect": false },
+          { "text": "۵۳", "label": "ج", "isCorrect": true },
+          { "text": "۶۰", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "در چه سالی ۸۰۰۰ روز پس از سال جاری خواهد بود؟",
+        "id": 18,
+        "options": [
+          { "text": "۲۰۴۳", "label": "الف", "isCorrect": false },
+          { "text": "۲۰۴۴", "label": "ب", "isCorrect": true },
+          { "text": "۲۰۴۵", "label": "ج", "isCorrect": false },
+          { "text": "۲۰۴۶", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "اگر عدد ۱۲۰ را بر ۸ تقسیم کنیم، چند باقی‌مانده داریم؟",
+        "id": 19,
+        "options": [
+          { "text": "۰", "label": "الف", "isCorrect": false },
+          { "text": "۱", "label": "ب", "isCorrect": false },
+          { "text": "۲", "label": "ج", "isCorrect": true },
+          { "text": "۳", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "معادل سینوسی زاویه ۶۰ درجه چقدر است؟",
+        "id": 20,
+        "options": [
+          { "text": "۰.۵", "label": "الف", "isCorrect": false },
+          { "text": "۰.۸", "label": "ب", "isCorrect": true },
+          { "text": "۱", "label": "ج", "isCorrect": false },
+          { "text": "۲", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "اگر ۲۰٪ از یک عدد، ۱۰ باشد، آن عدد چیست؟",
+        "id": 21,
+        "options": [
+          { "text": "۵", "label": "الف", "isCorrect": false },
+          { "text": "۵۰", "label": "ب", "isCorrect": true },
+          { "text": "۱۰۰", "label": "ج", "isCorrect": false },
+          { "text": "۲۰۰", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "اگر عدد ۱۲۰ را بر ۸ تقسیم کنیم، چند باقی‌مانده داریم؟",
+        "id": 22,
+        "options": [
+          { "text": "۰", "label": "الف", "isCorrect": false },
+          { "text": "۱", "label": "ب", "isCorrect": false },
+          { "text": "۲", "label": "ج", "isCorrect": true },
+          { "text": "۳", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "اگر یک مثلث قائم‌الزاویه، مساحت ۲۰ و فرضیه او را ۵ باشد، طول دیگر ضلع چقدر است؟",
+        "id": 23,
+        "options": [
+          { "text": "۴", "label": "الف", "isCorrect": false },
+          { "text": "۵", "label": "ب", "isCorrect": false },
+          { "text": "۶", "label": "ج", "isCorrect": true },
+          { "text": "۷", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "اگر یک مربع دارای محیط ۸۰ سانتی‌متر است، طول هر ضلع آن چقدر است؟",
+        "id": 24,
+        "options": [
+          { "text": "۲۰ سانتی‌متر", "label": "الف", "isCorrect": true },
+          { "text": "۲۴ سانتی‌متر", "label": "ب", "isCorrect": false },
+          { "text": "۳۲ سانتی‌متر", "label": "ج", "isCorrect": false },
+          { "text": "۳۶ سانتی‌متر", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "اگر عددی در بازه ۱ تا ۱۰۰، به صورت تصادفی انتخاب شود، احتمال این‌که آن عدد بخش‌پذیر بر ۴ باشد چقدر است؟",
+        "id": 25,
+        "options": [
+          { "text": "۲۵ درصد", "label": "الف", "isCorrect": true },
+          { "text": "۳۳ درصد", "label": "ب", "isCorrect": false },
+          { "text": "۵۰ درصد", "label": "ج", "isCorrect": false },
+          { "text": "۷۵ درصد", "label": "د", "isCorrect": false }
+        ]
       }
-      
     ]
   },
   {
@@ -233,7 +402,17 @@
     "name": "زیست",
     "questions": [
       {
-        "id": 1,
+        "text": "کدام یک از دستگاه‌های زیر مربوط به تنفس در وسعت موجودات است؟",
+        "id": 12,
+        "options": [
+          { "text": "دستگاه تنفس داخلی", "label": "الف", "isCorrect": true },
+          { "text": "دستگاه تنفس خارجی", "label": "ب", "isCorrect": false },
+          { "text": "دستگاه تنفس بدون ریه", "label": "ج", "isCorrect": false },
+          { "text": "همه موارد فوق", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 2,
         "text": "زیست شناسان برای استفاده موثر تر از سلولز در گیاهان از همه مواد زیر استفاده می کنند به جز :",
         "options": [
           {
@@ -263,7 +442,7 @@
         ]
       },
       {
-        "id": 2,
+        "id": 3,
         "text": "همه موارد زیر در مولکول دنا صدق می کند ، به جز ............",
         "options": [
           {
@@ -293,7 +472,7 @@
         ]
       },
       {
-        "id": 3,
+        "id": 4,
         "text": "در هر جانور دارای چیندان قطعا",
         "options": [
           {
@@ -323,7 +502,7 @@
         ]
       },
       {
-        "id": 4,
+        "id": 5,
         "text": "در چه بخشی از چشم نور به عصب بینایی منتقل می شود؟",
         "options": [
           {
@@ -353,7 +532,7 @@
         ]
       },
       {
-        "id": 9,
+        "id": 6,
         "text": "کدامیک از عضلات زیر اندامی بدن ما بزرگترین حجم را دارد؟",
         "options": [
           {
@@ -383,7 +562,7 @@
         ]
       },
       {
-        "id": 8,
+        "id": 7,
         "text": "در چه فازی از دوره سلولی میتوانیم خلاف جهت DNA را تشخیص دهیم؟",
         "options": [
           {
@@ -409,6 +588,206 @@
             "text": "فاز M",
             "label": "د",
             "isCorrect": true
+          }
+        ]
+      },
+      {
+        "text": "چه نوع چرخه‌ای در طبیعت و در مورد عوامل محیطی تنظیم شده است؟",
+        "id": 8,
+        "options": [
+          { "text": "چرخه آب", "label": "الف", "isCorrect": false },
+          { "text": "چرخه کربن", "label": "ب", "isCorrect": true },
+          { "text": "چرخه نیتروژن", "label": "ج", "isCorrect": false },
+          { "text": "چرخه فسفر", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "در چه بخش از سلول عملکرد ژنومی صورت می‌گیرد؟",
+        "id": 9,
+        "options": [
+          { "text": "کروماتین", "label": "الف", "isCorrect": true },
+          { "text": "میتوکندری", "label": "ب", "isCorrect": false },
+          { "text": "ریبوزوم", "label": "ج", "isCorrect": false },
+          { "text": "پوشش سلولی", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "کدام عامل محیطی موجب تنظیم فعالیت ژن‌ها در سلول می‌شود؟",
+        "id": 10,
+        "options": [
+          { "text": "سیگنال‌های نوری", "label": "الف", "isCorrect": false },
+          { "text": "سیگنال‌های صوتی", "label": "ب", "isCorrect": false },
+          { "text": "سیگنال‌های شیمیایی", "label": "ج", "isCorrect": true },
+          { "text": "سیگنال‌های حرارتی", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "چه نوع رنگدانه‌ای در گیاهان برای جذب نور استفاده می‌شود؟",
+        "id": 11,
+        "options": [
+          { "text": "کلروفیل", "label": "الف", "isCorrect": true },
+          { "text": "آنتوسیانین", "label": "ب", "isCorrect": false },
+          { "text": "کاروتنوئیدها", "label": "ج", "isCorrect": false },
+          { "text": "فلاونوئیدها", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "در چه بخش از دستگاه گوارش غذا به صورت مایع شده و به اثرات دستگاه گوارش ادامه می‌دهد؟",
+        "id": 12,
+        "options": [
+          { "text": "معده", "label": "الف", "isCorrect": true },
+          { "text": "روده بزرگ", "label": "ب", "isCorrect": false },
+          { "text": "روده کوچک", "label": "ج", "isCorrect": false },
+          { "text": "مری", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "از چه عضویتی سیستم ایمنی بدن برای محافظت از بدن در برابر عفونت‌ها و بیماری‌ها استفاده می‌کند؟",
+        "id": 13,
+        "options": [
+          { "text": "سلول‌های سفید خون", "label": "الف", "isCorrect": true },
+          { "text": "سلول‌های قرمز خون", "label": "ب", "isCorrect": false },
+          { "text": "سلول‌های عضلانی", "label": "ج", "isCorrect": false },
+          { "text": "سلول‌های سرطانی", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "چه نوع انرژی در مراحل تکمیلی گل‌ها به دست می‌آید؟",
+        "id": 14,
+        "options": [
+          { "text": "انرژی نوری", "label": "الف", "isCorrect": false },
+          { "text": "انرژی حرارتی", "label": "ب", "isCorrect": false },
+          { "text": "انرژی شیمیایی", "label": "ج", "isCorrect": true },
+          { "text": "انرژی جنبشی", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "کدام یک از مراحل دوره زیستی یک گل است؟",
+        "id": 15,
+        "options": [
+          { "text": "بذر", "label": "الف", "isCorrect": false },
+          { "text": "فلورش", "label": "ب", "isCorrect": false },
+          { "text": "گل مادر", "label": "ج", "isCorrect": false },
+          { "text": "گل پدر", "label": "د", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "کدام یک از عوامل زیر موجب ایجاد تغییرات در کروموزوم‌ها می‌شود؟",
+        "id": 16,
+        "options": [
+          {
+            "text": "تغییرات در شرایط محیطی",
+            "label": "الف",
+            "isCorrect": false
+          },
+          {
+            "text": "تغییرات در شرایط غذایی",
+            "label": "ب",
+            "isCorrect": false
+          },
+          { "text": "عوامل موروثی", "label": "ج", "isCorrect": true },
+          { "text": "تمرینات ورزشی", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "در کدام دستگاه بدن، هورمون‌های تیروئید ترشح می‌شوند؟",
+        "id": 17,
+        "options": [
+          { "text": "دستگاه تنفسی", "label": "الف", "isCorrect": false },
+          { "text": "دستگاه اندوکرین", "label": "ب", "isCorrect": true },
+          { "text": "دستگاه گوارش", "label": "ج", "isCorrect": false },
+          { "text": "دستگاه قلب و عروق", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "در کدام مرحله از تکثیر گیاهان، انقسام سلولی و تکثیر سلول‌های بی‌جنسی رخ می‌دهد؟",
+        "id": 18,
+        "options": [
+          { "text": "تکثیر موجب‌توکی", "label": "الف", "isCorrect": false },
+          { "text": "تکثیر جنسی", "label": "ب", "isCorrect": false },
+          { "text": "تکثیر بدون جنسی", "label": "ج", "isCorrect": true },
+          { "text": "همه موارد فوق", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "در کدام بخش از سلول انرژی نوری به انرژی شیمیایی تبدیل می‌شود؟",
+        "id": 19,
+        "options": [
+          { "text": "هسته", "label": "الف", "isCorrect": false },
+          { "text": "میتوکندری", "label": "ب", "isCorrect": false },
+          { "text": "کلروپلاست", "label": "ج", "isCorrect": true },
+          { "text": "ریبوزوم", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "کدام یک از مراحل زیر در فرآیند تبدیل گل به میوه صحیح نیست؟",
+        "id": 20,
+        "options": [
+          { "text": "آپوزیس", "label": "الف", "isCorrect": true },
+          { "text": "فرازنشست", "label": "ب", "isCorrect": false },
+          { "text": "پوسته‌زدگی", "label": "ج", "isCorrect": false },
+          { "text": "افزایش اندام‌ها", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "کدام یک از عوامل زیر موجب تغییرات ژنتیکی در گیاهان می‌شود؟",
+        "id": 21,
+        "options": [
+          { "text": "تغییرات محیطی", "label": "الف", "isCorrect": false },
+          { "text": "تغییرات غذایی", "label": "ب", "isCorrect": false },
+          {
+            "text": "تغییرات در شرایط نورپیوندی",
+            "label": "ج",
+            "isCorrect": true
+          },
+          {
+            "text": "تغییرات در شرایط نیتروژن",
+            "label": "د",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "text": "کدام یک از دستگاه‌های زیر در بدن انسان برای حفظ تعادل اسیدی- بازی نقش دارد؟",
+        "id": 22,
+        "options": [
+          { "text": "دستگاه عصبی", "label": "الف", "isCorrect": false },
+          { "text": "دستگاه گوارش", "label": "ب", "isCorrect": false },
+          { "text": "دستگاه تنفسی", "label": "ج", "isCorrect": false },
+          { "text": "دستگاه ادراری", "label": "د", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "کدام یک از عوامل زیر در موجب تحریک بیشتر سلولی می‌شود؟",
+        "id": 23,
+        "options": [
+          { "text": "هورمون‌ها", "label": "الف", "isCorrect": true },
+          { "text": "محیط محیطی", "label": "ب", "isCorrect": false },
+          { "text": "نور", "label": "ج", "isCorrect": false },
+          { "text": "صدا", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "در کدام جنس از میکروارگانیسم‌ها، ایمنی جامع به دست می‌آید؟",
+        "id": 24,
+        "options": [
+          { "text": "قارچ‌ها", "label": "الف", "isCorrect": false },
+          { "text": "ویروس‌ها", "label": "ب", "isCorrect": false },
+          { "text": "باکتری‌ها", "label": "ج", "isCorrect": false },
+          { "text": "پروتوزوآ ها", "label": "د", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "در کدام گونه ارتعاشات کمیاب در گوش انسان قابل شنیدن هستند؟",
+        "id": 25,
+        "options": [
+          { "text": "زیر ۲۰ هرتز", "label": "الف", "isCorrect": false },
+          { "text": "بالای ۲۰۰۰ هرتز", "label": "ب", "isCorrect": false },
+          { "text": "بین ۲۰ تا ۲۰۰۰ هرتز", "label": "ج", "isCorrect": true },
+          {
+            "text": "هیچ گونه ارتعاشی در گوش انسان قابل شنیدن نیست",
+            "label": "د",
+            "isCorrect": false
           }
         ]
       }
@@ -732,6 +1111,46 @@
           { "text": "ترکیب شیمیایی", "label": "ج", "isCorrect": false },
           { "text": "واکنش شیمیایی", "label": "د", "isCorrect": true }
         ]
+      },
+      {
+        "text": "عدد اتمی چند عنصر شیمیایی در دوره‌ی سوم جدول تناوبی برابر با ۱۱ است؟",
+        "id": 22,
+        "options": [
+          { "text": "9", "label": "الف", "isCorrect": false },
+          { "text": "10", "label": "ب", "isCorrect": false },
+          { "text": "11", "label": "ج", "isCorrect": true },
+          { "text": "12", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "عنصر شیمیایی کلر در کدام گروه قرار دارد؟",
+        "id": 23,
+        "options": [
+          { "text": "گروه ۱۸", "label": "الف", "isCorrect": false },
+          { "text": "گروه ۱۷", "label": "ب", "isCorrect": true },
+          { "text": "گروه ۱۶", "label": "ج", "isCorrect": false },
+          { "text": "گروه ۱۵", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "در یک نمونه‌ی خاکستری، چه عنصری بیشترین مقدار را دارد؟",
+        "id": 24,
+        "options": [
+          { "text": "سیلیسیم", "label": "الف", "isCorrect": false },
+          { "text": "آلومینیوم", "label": "ب", "isCorrect": false },
+          { "text": "آهن", "label": "ج", "isCorrect": true },
+          { "text": "کلسیم", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "عنصر شیمیایی گروه ۲ جدول تناوبی چه نامی دارد؟",
+        "id": 25,
+        "options": [
+          { "text": "هلیم", "label": "الف", "isCorrect": false },
+          { "text": "لیتیم", "label": "ب", "isCorrect": false },
+          { "text": "بروم", "label": "ج", "isCorrect": false },
+          { "text": "باریم", "label": "د", "isCorrect": true }
+        ]
       }
     ]
   },
@@ -829,6 +1248,230 @@
             "isCorrect": true
           }
         ]
+      },
+      {
+        "text": "نام کدام شاعر برای دفاع از بیت مشهور خود در مقابل انتقادات به دادگاه رفته است؟",
+        "id": 4,
+        "options": [
+          { "text": "فردوسی", "label": "الف", "isCorrect": false },
+          { "text": "خیام", "label": "ب", "isCorrect": true },
+          { "text": "رودکی", "label": "ج", "isCorrect": false },
+          { "text": "حافظ", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "کدام شاعر ایرانی به «شاعر عشق» مشهور است؟",
+        "id": 5,
+        "options": [
+          { "text": "رودکی", "label": "الف", "isCorrect": false },
+          { "text": "عطار", "label": "ب", "isCorrect": true },
+          { "text": "فردوسی", "label": "ج", "isCorrect": false },
+          { "text": "حافظ", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "کدام یک از این شاعران ایرانی، شاعری از دوره قاجار است؟",
+        "id": 6,
+        "options": [
+          { "text": "سعدی", "label": "الف", "isCorrect": false },
+          { "text": "حافظ", "label": "ب", "isCorrect": false },
+          { "text": "ملاصدرا", "label": "ج", "isCorrect": false },
+          { "text": "حسین گل‌گون", "label": "د", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "کدام شعرا به «شاعر نظامی» معروف هستند؟",
+        "id": 7,
+        "options": [
+          { "text": "فردوسی و حافظ", "label": "الف", "isCorrect": false },
+          { "text": "خیام و رودکی", "label": "ب", "isCorrect": false },
+          { "text": "سعدی و فرخی", "label": "ج", "isCorrect": true },
+          {
+            "text": "سهراب سپهری و فروغ فرخزاد",
+            "label": "د",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "text": "کدام شاعر ایرانی به «شاعر شاملو» مشهور است؟",
+        "id": 8,
+        "options": [
+          { "text": "فروغ فرخزاد", "label": "الف", "isCorrect": false },
+          { "text": "احمد شاملو", "label": "ب", "isCorrect": true },
+          { "text": "مولوی", "label": "ج", "isCorrect": false },
+          { "text": "فردوسی", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "در کدام اثر «سعدی» به اندیشه‌ی سیاسی پرداخته است؟",
+        "id": 9,
+        "options": [
+          { "text": "گلستان", "label": "الف", "isCorrect": false },
+          { "text": "بوستان", "label": "ب", "isCorrect": false },
+          { "text": "مجلسی عشاق", "label": "ج", "isCorrect": true },
+          { "text": "دیوان حافظ", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "کدام شاعر ایرانی به «شاعر ملی» مشهور است؟",
+        "id": 10,
+        "options": [
+          { "text": "فردوسی", "label": "الف", "isCorrect": true },
+          { "text": "رودکی", "label": "ب", "isCorrect": false },
+          { "text": "حافظ", "label": "ج", "isCorrect": false },
+          { "text": "خیام", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "در کدام شعر «فروغ فرخزاد» از موضوعات زندگی شخصی خود صحبت شده است؟",
+        "id": 11,
+        "options": [
+          { "text": "آشیانه‌ی زندگی", "label": "الف", "isCorrect": true },
+          { "text": "آینه‌های بغض", "label": "ب", "isCorrect": false },
+          { "text": "بهار و تابستان", "label": "ج", "isCorrect": false },
+          { "text": "افسانه‌های تلخ", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "در کدام شعر «سهراب سپهری» به تصویری کردن طبیعت پرداخته است؟",
+        "id": 12,
+        "options": [
+          { "text": "آب", "label": "الف", "isCorrect": false },
+          { "text": "آرامش", "label": "ب", "isCorrect": false },
+          { "text": "آسمان‌های آبی", "label": "ج", "isCorrect": true },
+          { "text": "آتش", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "شخصیت اصلی داستان «مردی که با خودش گفتگو می‌کرد» از کدام کشور بود؟",
+        "id": 13,
+        "options": [
+          { "text": "آمریکا", "label": "الف", "isCorrect": true },
+          { "text": "انگلستان", "label": "ب", "isCorrect": false },
+          { "text": "فرانسه", "label": "ج", "isCorrect": false },
+          { "text": "روسیه", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "کدام یک از این کتاب‌ها اثر «نیما یوشیج» نیست؟",
+        "id": 14,
+        "options": [
+          { "text": "زمستان در آینه‌ها", "label": "الف", "isCorrect": false },
+          { "text": "مرغ سحر", "label": "ب", "isCorrect": false },
+          { "text": "آفتاب‌های غربی", "label": "ج", "isCorrect": false },
+          { "text": "دیوان حافظ", "label": "د", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "در کدام شعر «فردوسی» از افراد نام برده شده‌اند که به طور قهرمانانه در جنگ‌ها شرکت کرده‌اند؟",
+        "id": 15,
+        "options": [
+          { "text": "شاهنامه", "label": "الف", "isCorrect": true },
+          { "text": "دیوان", "label": "ب", "isCorrect": false },
+          { "text": "منطق الطیر", "label": "ج", "isCorrect": false },
+          { "text": "گلستان", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "کدام یک از این شاعران ایرانی، شاعری از دوره قاجار است؟",
+        "id": 16,
+        "options": [
+          { "text": "سعدی", "label": "الف", "isCorrect": false },
+          { "text": "حافظ", "label": "ب", "isCorrect": false },
+          { "text": "ملاصدرا", "label": "ج", "isCorrect": false },
+          { "text": "علی‌اکبر دهخدا", "label": "د", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "کدام شاعر ایرانی به «شاعر روستاییان» مشهور است؟",
+        "id": 17,
+        "options": [
+          { "text": "سعدی", "label": "الف", "isCorrect": false },
+          { "text": "حافظ", "label": "ب", "isCorrect": false },
+          { "text": "مولوی", "label": "ج", "isCorrect": false },
+          { "text": "علامه اقبال لاهوری", "label": "د", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "در کدام اثر «سعدی» ماجرای «شیخ صفی‌الدین اردویل» روایت شده است؟",
+        "id": 18,
+        "options": [
+          { "text": "گلستان", "label": "الف", "isCorrect": true },
+          { "text": "بوستان", "label": "ب", "isCorrect": false },
+          { "text": "دیوان", "label": "ج", "isCorrect": false },
+          { "text": "غزلیات", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "در کدام اثر «حافظ» شعری با عنوان «خواجه شمس‌الدین محمد همتی» وجود دارد؟",
+        "id": 19,
+        "options": [
+          { "text": "غزلیات", "label": "الف", "isCorrect": true },
+          { "text": "رباعیات", "label": "ب", "isCorrect": false },
+          { "text": "دیوان", "label": "ج", "isCorrect": false },
+          { "text": "تذکره الاولیا", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "در کدام رمان «توفیق الهی» به تصویر کشیده شده است؟",
+        "id": 20,
+        "options": [
+          { "text": "گرگ و میش", "label": "الف", "isCorrect": false },
+          { "text": "مرداب", "label": "ب", "isCorrect": false },
+          { "text": "دیوارهای بادی", "label": "ج", "isCorrect": true },
+          { "text": "خانه پدری", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "نام شاعر دو بیت زیر را بنویسید:\n\nآتش در کوی تو بر آبم\nتا کی ای نیمه شب شبنم؟",
+        "id": 21,
+        "options": [
+          { "text": "سعدی", "label": "الف", "isCorrect": true },
+          { "text": "حافظ", "label": "ب", "isCorrect": false },
+          { "text": "مولوی", "label": "ج", "isCorrect": false },
+          { "text": "فیض کاشانی", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "نام شاعر زیر را بنویسید:\n\nچشم انتظار راه دور که باشد\nمرا عجب باز نمی‌آورد نور که باشد\n\n",
+        "id": 22,
+        "options": [
+          { "text": "فرید الدین عطار", "label": "الف", "isCorrect": false },
+          { "text": "حافظ", "label": "ب", "isCorrect": true },
+          { "text": "رودکی", "label": "ج", "isCorrect": false },
+          { "text": "عمر خیام", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "نام شاعر زیر را بنویسید:\n\nبی تو کی باشد درماندگان راهی\nتویی که دل هر مستمندی برآید\n\n",
+        "id": 23,
+        "options": [
+          { "text": "حافظ", "label": "الف", "isCorrect": false },
+          { "text": "سعدی", "label": "ب", "isCorrect": false },
+          { "text": "فیض کاشانی", "label": "ج", "isCorrect": true },
+          { "text": "مولوی", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "نام شاعر زیر را بنویسید:\n\nهر که صدای عشقش برآید\nز آفتاب رخش برافروزد\n\n",
+        "id": 24,
+        "options": [
+          { "text": "حافظ", "label": "الف", "isCorrect": false },
+          { "text": "رودکی", "label": "ب", "isCorrect": false },
+          { "text": "مولوی", "label": "ج", "isCorrect": true },
+          { "text": "عطار", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "نام شاعر زیر را بنویسید:\n\nهمه‌ی دنیا چون زندانی است\nو مردم چون زندانبانانش\n\n",
+        "id": 25,
+        "options": [
+          { "text": "فروغ فرخزاد", "label": "الف", "isCorrect": false },
+          { "text": "علی اکبر سعدی", "label": "ب", "isCorrect": false },
+          { "text": "احمد شاملو", "label": "ج", "isCorrect": true },
+          { "text": "نیما یوشیج", "label": "د", "isCorrect": false }
+        ]
       }
     ]
   },
@@ -925,6 +1568,274 @@
             "text": "قدر - قدر",
             "isCorrect": false
           }
+        ]
+      },
+      {
+        "text": "در چه سوره‌ای از قرآن کریم آمده است: «وَمَا أَرْسَلْنَاكَ إِلَّا رَحْمَةً لِلْعَالَمِینَ»؟",
+        "id": 4,
+        "options": [
+          { "text": "سوره مبارکه مائده", "label": "الف", "isCorrect": false },
+          { "text": "سوره مبارکه الفاتحه", "label": "ب", "isCorrect": false },
+          { "text": "سوره مبارکه الأنبياء", "label": "ج", "isCorrect": false },
+          { "text": "سوره مبارکه الأعراف", "label": "د", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "کدام یک از این انبیا در قرآن کریم ذکر شده است؟",
+        "id": 5,
+        "options": [
+          { "text": "یوسف (ع)", "label": "الف", "isCorrect": true },
+          { "text": "نوح (ع)", "label": "ب", "isCorrect": false },
+          { "text": "موسی (ع)", "label": "ج", "isCorrect": false },
+          { "text": "عیسی (ع)", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "چه کسی اولین شخصی بود که در اسلام به معرفی خداوند پرداخت؟",
+        "id": 6,
+        "options": [
+          {
+            "text": "امیرالمؤمنین علی بن ابی‌طالب (ع)",
+            "label": "الف",
+            "isCorrect": false
+          },
+          { "text": "جبرئیل (ع)", "label": "ب", "isCorrect": true },
+          { "text": "خدیجه (س)", "label": "ج", "isCorrect": false },
+          { "text": "حضرت محمد (ص)", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "در کدام سوره قرآن کریم آیه «وَاللَّهُ خَيْرُ الرَّازِقِينَ» آمده است؟",
+        "id": 7,
+        "options": [
+          { "text": "سوره بقره", "label": "الف", "isCorrect": false },
+          { "text": "سوره العنکبوت", "label": "ب", "isCorrect": false },
+          { "text": "سوره الحجرات", "label": "ج", "isCorrect": false },
+          { "text": "سوره سبأ", "label": "د", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "کدام یک از این موارد در اسلام مستحب است؟",
+        "id": 8,
+        "options": [
+          {
+            "text": "صدقه دادن به نیازمندان",
+            "label": "الف",
+            "isCorrect": true
+          },
+          {
+            "text": "نوشیدنی الکلی مصرف کردن",
+            "label": "ب",
+            "isCorrect": false
+          },
+          {
+            "text": "استفاده از خودروی شخصی برای رفت و آمد",
+            "label": "ج",
+            "isCorrect": false
+          },
+          {
+            "text": "نماز خواندن بعد از طلوع آفتاب",
+            "label": "د",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "text": "کدام یک از این انبیا در قرآن کریم به عنوان «خاتم‌النبیین» یاد شده است؟",
+        "id": 9,
+        "options": [
+          { "text": "موسی (ع)", "label": "الف", "isCorrect": false },
+          { "text": "نوح (ع)", "label": "ب", "isCorrect": false },
+          { "text": "عیسی (ع)", "label": "ج", "isCorrect": false },
+          { "text": "حضرت محمد (ص)", "label": "د", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "کدام یک از این روزها در اسلام محرم نام دارد؟",
+        "id": 10,
+        "options": [
+          { "text": "یکشنبه", "label": "الف", "isCorrect": false },
+          { "text": "سه‌شنبه", "label": "ب", "isCorrect": false },
+          { "text": "چهارشنبه", "label": "ج", "isCorrect": false },
+          { "text": "عاشورا", "label": "د", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "کدام یک از این موارد در مباحث شرعی به معنای «تعهد» و «عقد» است؟",
+        "id": 11,
+        "options": [
+          { "text": "نکاح", "label": "الف", "isCorrect": true },
+          { "text": "طلاق", "label": "ب", "isCorrect": false },
+          { "text": "عتق اسیر", "label": "ج", "isCorrect": false },
+          { "text": "مهریه", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "در کدام سوره قرآن کریم آیه «بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِیمِ» آمده است؟",
+        "id": 12,
+        "options": [
+          { "text": "سوره النور", "label": "الف", "isCorrect": false },
+          { "text": "سوره المائدة", "label": "ب", "isCorrect": false },
+          { "text": "سوره الفاتحه", "label": "ج", "isCorrect": true },
+          { "text": "سوره الأعراف", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "کدام یک از این سوره‌ها در قرآن کریم به عنوان «قلب القرآن» شناخته می‌شود؟",
+        "id": 13,
+        "options": [
+          { "text": "سوره مبارکه یس", "label": "الف", "isCorrect": false },
+          { "text": "سوره مبارکه حمد", "label": "ب", "isCorrect": false },
+          { "text": "سوره مبارکه واقعه", "label": "ج", "isCorrect": true },
+          { "text": "سوره مبارکه مائده", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "کدام یک از این موارد در اسلام مکروه است؟",
+        "id": 14,
+        "options": [
+          { "text": "نماز خواندن به موقع", "label": "الف", "isCorrect": false },
+          { "text": "مصرف میگو و خرچنگ", "label": "ب", "isCorrect": true },
+          { "text": "جهاد در راه خدا", "label": "ج", "isCorrect": false },
+          { "text": "خدمت به والدین", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "کدام یک از این موارد در اسلام مستحب نیست؟",
+        "id": 15,
+        "options": [
+          { "text": "دعا کردن در شب قدر", "label": "الف", "isCorrect": false },
+          { "text": "جستجوی علم و دانش", "label": "ب", "isCorrect": false },
+          { "text": "سفر به مکه برای حج", "label": "ج", "isCorrect": true },
+          { "text": "صدقه دادن به نیازمندان", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "چه کسی سوره «الإخلاص» را نازل کرد؟",
+        "id": 16,
+        "options": [
+          { "text": "حضرت محمد (ص)", "label": "الف", "isCorrect": true },
+          { "text": "حضرت علی (ع)", "label": "ب", "isCorrect": false },
+          { "text": "حضرت جبرئیل (ع)", "label": "ج", "isCorrect": false },
+          { "text": "حضرت موسی (ع)", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "کدام یک از این سوره‌ها در قرآن کریم به عنوان «سوره صف» شناخته می‌شود؟",
+        "id": 17,
+        "options": [
+          { "text": "سوره مبارکه مائده", "label": "الف", "isCorrect": false },
+          { "text": "سوره مبارکه یونس", "label": "ب", "isCorrect": false },
+          { "text": "سوره مبارکه قصص", "label": "ج", "isCorrect": false },
+          { "text": "سوره مبارکه صف", "label": "د", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "کدام یک از این موارد در اسلام حرام است؟",
+        "id": 18,
+        "options": [
+          { "text": "پرورش و مصرف سگ", "label": "الف", "isCorrect": true },
+          {
+            "text": "پرداختن به حقوق مالیاتی",
+            "label": "ب",
+            "isCorrect": false
+          },
+          { "text": "مصرف میوه‌های ترش", "label": "ج", "isCorrect": false },
+          { "text": "احترام به حقوق بشر", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "کدام یک از این موارد در اسلام مکروه است؟",
+        "id": 19,
+        "options": [
+          {
+            "text": "پوشیدن لباس‌های خاص در مراسمات دینی",
+            "label": "الف",
+            "isCorrect": true
+          },
+          {
+            "text": "درمان بیماری‌ها با داروهای مجاز",
+            "label": "ب",
+            "isCorrect": false
+          },
+          { "text": "پرورش کرم ابریشم", "label": "ج", "isCorrect": false },
+          {
+            "text": "حضور در مساجد برای نماز",
+            "label": "د",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "text": "کدام یک از این سوره‌ها در قرآن کریم به عنوان «سوره رحمان» شناخته می‌شود؟",
+        "id": 20,
+        "options": [
+          { "text": "سوره مبارکه بقره", "label": "الف", "isCorrect": false },
+          { "text": "سوره مبارکه ملک", "label": "ب", "isCorrect": false },
+          { "text": "سوره مبارکه رحمان", "label": "ج", "isCorrect": true },
+          { "text": "سوره مبارکه نحل", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "کدام یک از این موارد در اسلام واجب است؟",
+        "id": 21,
+        "options": [
+          {
+            "text": "پرداختن به حقوق مالیاتی",
+            "label": "الف",
+            "isCorrect": false
+          },
+          {
+            "text": "پرورش و مراقبت از خانواده",
+            "label": "ب",
+            "isCorrect": true
+          },
+          { "text": "انجام مسابقات ورزشی", "label": "ج", "isCorrect": false },
+          {
+            "text": "مراجعه به مکه برای زیارت حج",
+            "label": "د",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "text": "کدام یک از این سوره‌ها در قرآن کریم به عنوان «سوره مبارکه بلد» شناخته می‌شود؟",
+        "id": 22,
+        "options": [
+          { "text": "سوره مبارکه فاتحه", "label": "الف", "isCorrect": false },
+          { "text": "سوره مبارکه نصر", "label": "ب", "isCorrect": false },
+          { "text": "سوره مبارکه تین", "label": "ج", "isCorrect": false },
+          { "text": "سوره مبارکه بلد", "label": "د", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "در چه شهری محل تولد پیامبر اسلام(ص) قرار دارد؟",
+        "id": 23,
+        "options": [
+          { "text": "مدینه", "label": "الف", "isCorrect": false },
+          { "text": "مکه", "label": "ب", "isCorrect": true },
+          { "text": "کربلا", "label": "ج", "isCorrect": false },
+          { "text": "شام", "label": "د", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "نام کتاب مقدس اسلام که به پیامبر اسلام(ص) نازل شده است چیست؟",
+        "id": 24,
+        "options": [
+          { "text": "تورات", "label": "الف", "isCorrect": false },
+          { "text": "زبور", "label": "ب", "isCorrect": false },
+          { "text": "انجیل", "label": "ج", "isCorrect": false },
+          { "text": "قرآن", "label": "د", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "در کدام روز از ماه رمضان، شب‌های قدر به وجود می‌آیند؟",
+        "id": 25,
+        "options": [
+          { "text": "۱۷م", "label": "الف", "isCorrect": false },
+          { "text": "۱۹م", "label": "ب", "isCorrect": false },
+          { "text": "۲۱م", "label": "ج", "isCorrect": false },
+          { "text": "۲۳م", "label": "د", "isCorrect": true }
         ]
       }
     ]
