@@ -3,8 +3,8 @@
     <div>
       <h1 class="text-2xl font-bold mb-4">مشخصات تست {{subject}}</h1>
       <form class="w-full max-w-lg" @submit.prevent>
-        <div class="flex flex-col mb-6">
-          <label for="number" class="block text-gray-700 font-bold mb-2"
+        <div class="flex flex-col relative mb-6">
+          <label for="number" class="block text-gray-700 font-bold"
             >تعداد سوالات</label
           >
           <input
@@ -12,10 +12,13 @@
             type="number"
             class="form-input w-full sm:w-60 border-2 border-gray-400 p-2 rounded-md"
             min="1"
+            :max="maxQuestions"
             v-model="numberOfQuestions"
           />
+          <div class="absolute top-full right-0"><span v-show="numberOfQuestions===maxQuestions" class="text-red-700 text-sm">حد اکثر تعداد سوالات</span></div>
         </div>
-        <div class="flex flex-row gap-4 mb-6 ">
+        
+        <div class="flex flex-row gap-4 ">
           <label for="checkbox" class="block text-gray-700 font-bold mb-2"
             >نمره منفی</label
           >
@@ -49,6 +52,8 @@ import q from "../data/quiz"
 const router = useRoute()
 const id = router.params.id;
 const subject = q[id-1].name;
+const maxQuestions = q[id-1].questions.length
+console.log(maxQuestions)
 const numberOfQuestions = ref(0);
  watch(numberOfQuestions, ( newValue ) => {useNumberOfQuestions().value = newValue;})
 </script>
