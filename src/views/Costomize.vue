@@ -17,18 +17,6 @@
           />
           <div class="absolute top-full right-0"><span v-show="numberOfQuestions===maxQuestions" class="text-red-700 text-sm">حد اکثر تعداد سوالات</span></div>
         </div>
-        
-        <div class="flex flex-row gap-4 ">
-          <label for="checkbox" class="block text-gray-700 font-bold mb-2"
-            >نمره منفی</label
-          >
-          <input
-            id="checkbox"
-            type="checkbox"
-            class="form-checkbox h-5 w-5 text-blue-600"
-            min="1"
-          />
-        </div>
         <div class="flex justify-center">
           <router-link :to="`/quiz/${id}`">
              <button
