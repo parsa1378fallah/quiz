@@ -1,6 +1,7 @@
 <script setup>
 import {defineProps} from 'vue'
-import {useRouter} from 'vue-router'
+import {useRouter} from 'vue-router';
+import anime from 'animejs/';
 const {quiz} = defineProps(['quiz'])
 
 const router = useRouter()
@@ -8,9 +9,10 @@ const router = useRouter()
 const navigateToQuiz = () =>{
   router.push(`/costomize/${quiz.id}`)
 }
+
 </script>
 <template>
-     <div class="card " @click="navigateToQuiz()">
+     <div class="card " @click="navigateToQuiz()"  >
       <div class="image">
         <img :src="quiz.img" alt="123" class="image" />
       </div>

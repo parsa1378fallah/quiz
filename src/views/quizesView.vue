@@ -2,6 +2,7 @@
 import { ref, watch } from "vue";
 import q from "../data/quiz.json";
 import Card from "../components/card/Card.vue";
+import anime from "animejs/";
 const quizes = ref(q);
 
 const search = ref("");
@@ -10,6 +11,20 @@ watch(search, () => {
     quiz.name.toLowerCase().includes(search.value.toLowerCase())
   );
 });
+const animateBoxIn = (item) => {
+  anime({
+    targets: item,
+    scale: 1.05,
+    duration: 500,
+  });
+};
+const animateBoxOut = (item) => {
+  anime({
+    targets: item,
+    scale: 1,
+    duration: 500,
+  });
+};
 </script>
 
 <template>
@@ -18,7 +33,14 @@ watch(search, () => {
     <input type="text" v-model="search" />
   </div>
   <div class="options-container">
-    <Card v-for="quiz in quizes" :key="quiz.id" :quiz="quiz" />
+    <Card
+      v-for="(quiz, index) in quizes"
+      :key="quiz.id"
+      :quiz="quiz"
+      @mouseenter="animateBoxIn(`.card-${index}`)"
+      @mouseleave="animateBoxOut(`.card-${index}`)"
+      :class="`card-${index}`"
+    />
   </div>
 </template>
 
