@@ -72,6 +72,7 @@ const nextQuestion = (answer)=>
     padding: 10px 25px;
     border-radius: 5px;
     background: #fff;
+    border  : 2px solid #0bc0e0
 
 }
 .option-container
@@ -87,6 +88,7 @@ const nextQuestion = (answer)=>
     gap : 15px;
     margin: 0 0 20px 0;
     cursor: pointer;
+     
     
 }
 .option-label
@@ -102,13 +104,14 @@ const nextQuestion = (answer)=>
 }
 .option-value
 {
-    background: rgb(244,239,239);
+    background: rgb(235, 250, 232);
     width : 85%;
     font-size : 20px;
     padding: 0 20px;
     display: flex;
     align-items: center;
     border-radius: 5px;
+    border  : 2px solid #0bc0e0;
     
 }
 @media screen and (max-width: 500px) {
