@@ -41,7 +41,6 @@ const router = useRoute()
 const id = router.params.id;
 const subject = q[id-1].name;
 const maxQuestions = q[id-1].questions.length
-console.log(maxQuestions)
 const numberOfQuestions = ref(0);
  watch(numberOfQuestions, ( newValue ) => {useNumberOfQuestions().value = newValue;})
 </script>
